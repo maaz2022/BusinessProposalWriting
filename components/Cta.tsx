@@ -17,7 +17,7 @@ const Cta = () => {
             Order Now <SquareArrowOutUpRight />
           </button>
         </div>
-        <div>
+        <div className='hidden sm:block'>
             <Image
                 src='/elegant-businessman-with-document_1.png'
                 alt='image'
