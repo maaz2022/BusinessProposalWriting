@@ -13,7 +13,7 @@ const CounterSection = () => {
         if (prevCounter === 250) {
           setIsIncreasing(false); // Change direction to increasing towards 500
         }
-        
+
         if (isIncreasing) {
           if (prevCounter < targetValue) {
             return prevCounter + 1; // Increment the counter
@@ -34,16 +34,15 @@ const CounterSection = () => {
     return () => clearInterval(interval); 
   }, [isIncreasing, targetValue]);
 
-
   const formatCounter = (count: number): string => { 
     return count.toString().padStart(3, '0');
   };
 
   return (
-    <section className="flex justify-center items-center gap-48 py-20">
+    <section className="flex flex-wrap justify-center items-center gap-8 py-10 sm:gap-12 md:gap-24 md:py-16 lg:gap-48 lg:py-20">
       {Array(4).fill(null).map((_, index) => (
         <div className="text-center" key={index}>
-          <h2 className="text-6xl font-bold text-[#083554]">{formatCounter(counter)}+</h2>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#083554]">{formatCounter(counter)}+</h2>
         </div>
       ))}
     </section>

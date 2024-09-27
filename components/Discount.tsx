@@ -1,4 +1,4 @@
-import { SquareArrowOutUpRight, ThumbsUp } from 'lucide-react';
+import { ThumbsUp } from 'lucide-react';
 import React from 'react';
 
 const Discount = () => {

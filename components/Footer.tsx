@@ -1,19 +1,19 @@
-import { Clock, Dribbble, Facebook, Instagram, Linkedin, Mail, X } from 'lucide-react';
+import { Clock, Facebook, Instagram, Linkedin, Mail, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-FooterBg bg-cover bg-center text-white py-8 h-[500px]">
+    <footer className="relative bg-FooterBg bg-cover bg-center text-white py-8 h-auto">
       {/* Blue Overlay */}
       <div className="absolute inset-0 bg-[#083554] opacity-90 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-start lg:space-x-12">
-          
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:space-x-12">
+
           {/* Logo Section */}
-          <div className="w-full lg:w-1/4 text-left flex flex-col">
+          <div className="w-full lg:w-1/4 text-left flex flex-col mb-8 lg:mb-0">
             <h2 className="text-2xl font-bold mb-4 self-start">
               <Link href="/">
                 <Image
@@ -24,27 +24,27 @@ const Footer = () => {
                 />
               </Link>
             </h2>
-            <p className="text-white text-[20px] max-w-4xl leading-relaxed">
+            <p className="text-white text-[16px] md:text-[20px] max-w-full lg:max-w-4xl leading-relaxed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolorum est assumenda adipisci temporibus earum possimus quidem omnis esse officia dignissimos quisquam iste iure, et itaque asperiores, amet ad.
             </p>
             <div className="flex mt-4 space-x-4">
               <a href="#" className="text-white">
-                <Instagram  size={30}/>
+                <Instagram size={30} />
               </a>
               <a href="#" className="text-white">
-                <Facebook size={30}/>
+                <Facebook size={30} />
               </a>
               <a href="#" className="text-white">
-                <X size={30}/>
+                <X size={30} />
               </a>
               <a href="#" className="text-white">
-                <Linkedin size={30}/>
+                <Linkedin size={30} />
               </a>
             </div>
           </div>
 
           {/* Links Section */}
-          <div className="w-full lg:w-1/4 text-left mt-32 pl-32">
+          <div className="w-full lg:w-1/4 text-left mb-8 lg:mt-32 lg:pl-20">
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-white hover:underline">About us</a></li>
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
 
           {/* Services Section */}
-          <div className="w-full lg:w-1/4 text-left mt-32 pl-20">
+          <div className="w-full lg:w-1/4 text-left mb-8 lg:mt-32">
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-white hover:underline">Business Content Writing</a></li>
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
 
           {/* Information Section */}
-          <div className="w-full lg:w-1/4 text-left mt-32 pl-20">
+          <div className="w-full lg:w-1/4 text-left mb-8 lg:mt-32">
             <h3 className="text-lg font-semibold mb-4">Information</h3>
             <div className="space-y-6">
               <p className="flex items-center">
