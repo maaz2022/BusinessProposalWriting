@@ -26,7 +26,7 @@ const SeventhSection = () => {
       <div className="flex flex-col md:flex-row justify-between mt-16 md:mx-[120px]">
         {/* First Lower Column */}
         <div className="w-full md:w-1/2 max-w-2xl mb-8 md:mb-0">
-          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE'S Top Business Planners At Your Service!</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE&apos;S Top Business Planners At Your Service!</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
             Customers and their needs are the core of everything we do at our business plan company. We follow a client-centric approach to craft documents that translate your business vision and aspirations. Our goal is to bring your corporate dreams to reality. The reason why so many corporate entities from Dubai, Abu Dhabi, Sharjah, Ajman, Fujairah, Al Ain, Ras Al Khaimah, and Umm Al Quwain trust our services is we deliver complete value for their money.
           </p>
@@ -34,7 +34,7 @@ const SeventhSection = () => {
 
         {/* Second Lower Column */}
         <div className="w-full md:w-1/2 max-w-2xl">
-          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE'S Top Business Planners At Your Service!</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE&apos;S Top Business Planners At Your Service!</h3>
           <p className="text-[16px] md:text-[20px]">
             Customers and their needs are the core of everything we do at our business plan company. We follow a client-centric approach to craft documents that translate your business vision and aspirations. Our goal is to bring your corporate dreams to reality. The reason why so many corporate entities from Dubai, Abu Dhabi, Sharjah, Ajman, Fujairah, Al Ain, Ras Al Khaimah, and Umm Al Quwain trust our services is we deliver complete value for their money.
           </p>
@@ -53,7 +53,7 @@ const SeventhSection = () => {
 
         {/* Second Lower Column */}
         <div className="w-full md:w-1/2 max-w-2xl">
-          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE's #1 Business Plan Company For A Reason!</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE&apos;s #1 Business Plan Company For A Reason!</h3>
           <p className="text-[16px] md:text-[20px]">
             Customers and their needs are the core of everything we do at our business plan company. We follow a client-centric approach to craft documents that translate your business vision and aspirations. Our goal is to bring your corporate dreams to reality. The reason why so many corporate entities from Dubai, Abu Dhabi, Sharjah, Ajman, Fujairah, Al Ain, Ras Al Khaimah, and Umm Al Quwain trust our services is we deliver complete value for their money.
           </p>

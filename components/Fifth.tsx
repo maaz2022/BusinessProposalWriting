@@ -31,7 +31,7 @@ const FifthSection = () => {
           </p>
           
           <button className="px-6 py-2 bg-[#124680] text-white flex items-center gap-3 text-[18px] sm:text-[20px] justify-center hover:bg-blue-400 duration-300 mt-5">
-            Let's Begin <SquareArrowOutUpRight />
+          Let&apos;s Begin <SquareArrowOutUpRight />
           </button>
         </div>
       </div>
