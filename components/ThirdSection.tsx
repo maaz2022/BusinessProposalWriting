@@ -7,9 +7,9 @@ const ThirdSection = () => {
       {/* Left side with image */}
       <div className=" flex justify-center items-center">
         <Image
-          src="/Mask group-1.png" 
+          src="/Group_48.png" 
           alt="Sample Image"
-          width={500}
+          width={600}
           height={200}
         />
       </div>

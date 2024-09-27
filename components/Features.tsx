@@ -50,7 +50,7 @@ const Features = () => {
                 </div>
 
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 px-52'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 pl-52'>
                     {features.map((feature, index) => (
                         <div
                             key={index}

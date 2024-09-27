@@ -1,0 +1,33 @@
+import { SquareArrowOutUpRight } from 'lucide-react'
+import Image from 'next/image'
+import React from 'react'
+
+const Cta = () => {
+  return (
+    <section className='relative flex justify-between items-center bg-gradient-to-t from-[#083554] to-cyan-600 rounded-3xl max-w-6xl  h-[250px] my-6 mx-auto p-11 mt-28'>
+
+        <div className='text-white'>
+            <h1 className='text-2xl font-bold'>
+                Get Specifically Tailored Content
+            </h1>
+            <p className='text-[20px] max-w-2xl py-4'>
+                We produce premium quality that is verifiable, backed by research, and 100% plagiarism-free.
+            </p>
+         <button className="px-6 py-2 bg-[#5e92ce] text-white rounded  flex items-center gap-3 text-[20px] justify-center hover:bg-blue-400 duration-300">
+            Order Now <SquareArrowOutUpRight />
+          </button>
+        </div>
+        <div>
+            <Image
+                src='/elegant-businessman-with-document_1.png'
+                alt='image'
+                width={250}
+                height={200}
+                className='absolute bottom-0 right-0'
+            />
+        </div>
+    </section>
+  )
+}
+
+export default Cta

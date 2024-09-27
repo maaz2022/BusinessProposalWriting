@@ -47,7 +47,7 @@ const FourthSection = () => {
 
 
       <div className="w-1/2 h-full  flex justify-center items-center">
-        <div className=" h-full">
+        <div className="h-full">
           <Image
             src="/Mask group-2.png"
             alt="Sample Image"

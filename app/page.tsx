@@ -1,4 +1,6 @@
 import CounterSection from "@/components/Counter";
+import Cta from "@/components/Cta";
+import Discount from "@/components/Discount";
 import EighthSection from "@/components/EighthSection";
 import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";
@@ -13,6 +15,7 @@ export default function Home() {
   return (
     <>
       <Hero/>
+      <Discount/>
       <CounterSection/>
       <ThirdSection/>
       <FourthSection/>
@@ -21,6 +24,7 @@ export default function Home() {
       <SeventhSection/>
       <EighthSection/>
       <FAQ/>
+      <Cta/>
       <Footer/>
     </>
   );
