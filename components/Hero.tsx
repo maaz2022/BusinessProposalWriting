@@ -11,8 +11,8 @@ const Hero = () => {
       <div className="absolute right-0 bottom-10 w-[600px] h-[700px] md:w-[750px] md:h-[900px] blur-[90px] rounded-full bg-[#124680] opacity-40 z-0"></div>
 
       {/* Text Section */}
-      <div className="w-full lg:w-1/2 flex flex-col justify-center pl-6 md:pl-20 lg:pl-60 space-y-6 md:space-y-8 relative z-10">
-        <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold relative">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-start pl-6 md:pl-20 lg:pl-60 space-y-6 md:space-y-8 relative z-10">
+        <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold relative ">
           Create the business you always dreamed of
         </h1>
 
