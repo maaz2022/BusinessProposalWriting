@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="relative flex flex-col lg:flex-row justify-center items-center shadow-sm rounded-lg p-6 md:p-10 bg-[#12458015]">
       {/* Background blobs */}
-      <div className="absolute left-0 top-16 w-[400px] h-[400px] md:w-[600px] md:h-[600px] rounded-full blur-[70px] bg-[#124680] opacity-30 z-0"></div>
+      <div className="hidden sm:block absolute left-0 top-16  h-[400px] md:w-[600px] md:h-[600px] rounded-full blur-[70px] bg-[#124680] opacity-30 z-0"></div>
       <div className="absolute right-0 bottom-10 w-[600px] h-[700px] md:w-[750px] md:h-[900px] blur-[90px] rounded-full bg-[#124680] opacity-40 z-0"></div>
 
       {/* Text Section */}
