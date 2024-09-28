@@ -3,21 +3,21 @@ import React from 'react';
 
 const ThirdSection = () => {
   return (
-    <section className="flex flex-col md:flex-row mt-12 md:mt-28 gap-10 md:gap-20 items-center justify-center px-4">
+    <section className="flex flex-col md:flex-col lg:flex-row mt-12 md:mt-28 gap-10 md:gap-20 items-center justify-center px-4">
       {/* Left side with image */}
-      <div className="flex justify-center items-center w-full md:w-1/2">
+      <div className="flex justify-center items-center w-full lg:w-1/2">
         <Image
           src="/Group_48.png" 
           alt="Sample Image"
-          width={700}
+          width={600}
           height={200}
-          className=" h-auto" // Ensures image scales down for smaller screens
+          className=" h-auto"
         />
       </div>
 
       {/* Right side with text */}
-      <div className="flex flex-col justify-center w-full md:w-1/2 lg:mr-40"> 
-        <div className="max-w-full md:max-w-5xl">
+      <div className="flex flex-col justify-center w-full lg:w-1/2 lg:mr-40"> 
+        <div className="max-w-full md:max-w-7xl lg:max-w-5xl">
           <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
             Lorem ipsum odor amet, consectetuer adipiscing elit.
           </h1>
