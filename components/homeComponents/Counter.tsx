@@ -2,34 +2,34 @@
 import { useState, useEffect } from "react";
 
 const CounterSection = () => {
-  const [counter, setCounter] = useState<number>(1); // Start at 1
-  const targetValue = 500; // Define your target value
-  const [isIncreasing, setIsIncreasing] = useState<boolean>(true); // State to track direction
+  const [counter, setCounter] = useState<number>(1); 
+  const targetValue = 500; 
+  const [isIncreasing, setIsIncreasing] = useState<boolean>(true); 
 
   useEffect(() => {
     const increment = () => {
       setCounter((prevCounter) => {
-        // Check if we need to change direction
+    
         if (prevCounter === 250) {
-          setIsIncreasing(false); // Change direction to increasing towards 500
+          setIsIncreasing(false); 
         }
 
         if (isIncreasing) {
           if (prevCounter < targetValue) {
-            return prevCounter + 1; // Increment the counter
+            return prevCounter + 1; 
           }
         } else {
-          // Reverse the direction when counter reaches 250
+        
           if (prevCounter < targetValue) {
-            return prevCounter + 1; // Continue incrementing towards 500
+            return prevCounter + 1;
           }
         }
 
-        return prevCounter; // Return the current counter value if no change
+        return prevCounter;
       });
     };
 
-    const interval = setInterval(increment, 10); // Adjust speed here (10ms per increment)
+    const interval = setInterval(increment, 10); 
 
     return () => clearInterval(interval); 
   }, [isIncreasing, targetValue]);
@@ -44,6 +44,7 @@ const CounterSection = () => {
         <div className="text-center" key={index}>
           <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#083554]">{formatCounter(counter)}+</h2>
         </div>
+        
       ))}
     </section>
   );
