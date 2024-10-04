@@ -1,4 +1,4 @@
-import { ChartColumnBig, FileCheck, FileSearch, FolderUp, Grid2x2Check, HandshakeIcon, Headset, Lightbulb, Rocket, Shapes, Star, Trophy } from 'lucide-react';
+import { ChartColumnBig, FileCheck, Lightbulb, Rocket, Shapes, Trophy } from 'lucide-react';
 import React from 'react';
 
 const AboutFeatures = () => {

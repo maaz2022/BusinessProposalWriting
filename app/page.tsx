@@ -5,7 +5,6 @@ import EighthSection from "@/components/homeComponents/EighthSection";
 import FAQ from "@/components/homeComponents/FAQ";
 import Features from "@/components/homeComponents/Features";
 import FifthSection from "@/components/homeComponents/Fifth";
-import Footer from "@/components/Footer";
 import FourthSection from "@/components/homeComponents/FourthSection";
 import Hero from "@/components/homeComponents/Hero";
 import SeventhSection from "@/components/homeComponents/SeventhSection";
