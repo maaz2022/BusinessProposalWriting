@@ -8,10 +8,10 @@ const SixthSection = () => {
 
         <div className='text-white'>
             <h1 className='text-2xl font-bold'>
-                Get Specifically Tailored Content
+                Let’s Cook Up Proposals That Make You the Talk of the Town!
             </h1>
             <p className='lg:text-[20px] md:text-[18px] text-[15px]  max-w-[350px] lg:max-w-2xl py-4'>
-                We produce premium quality that is verifiable, backed by research, and 100% plagiarism-free.
+                Your Ambitions Deserve a Pitch That Speaks Volume – Go Beyond Ordinary and Captivate with Masterpieces That Ignite Passion and Close Deals!
             </p>
          <button className="px-6 py-2 bg-[#5e92ce] text-white rounded  flex items-center gap-3 text-[20px] justify-center hover:bg-blue-400 duration-300">
             Order Now <SquareArrowOutUpRight />

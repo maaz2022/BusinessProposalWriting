@@ -19,15 +19,20 @@ const FourthSection = () => {
       <div className="flex flex-col justify-center w-full 2xl:w-1/2 2xl:mr-40 lg:px-7"> 
         <div className="max-w-full md:max-w-7xl lg:max-w-6xl">
           <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
-            Who we are 
+            Your Mission Is Our Mission!
           </h1>
                  <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-                We are a team of competent and professional business plan writers providing online business planning in UAE. Our writers have written plans for diversity of businesses ranging from start-ups to organizations based in the UAE region including Dubai, Abu Dhabi, Ajman and Sharjah.          </p>
-                 <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-                We fully understand that every business is unique and different from others and cannot be planned on a single template or category. Our team of in-house business consultants separately analyzes every business to provide customized business planning to each of our clients. Every business needs t hold some sort of uniqueness in order to be successful. Our business plan writers make sure to provide a unique feature to every business.          </p>
-                <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-                BusinessPlanner.ae is fully aware of the latest technology and business strategies used in the modern era to flourish businesses. Our clients have reached new heights of success with the help of our business plans. Our extensive research will definitely help to evolve your business and take one of the top positions in the market.          
+                At <b>Business Proposal Writer</b>, we’re not just about putting words on the paper—we build door-opening opportunities. Think of us as the ultimate sidekick, ensuring your proposal packs a punch no matter what! Whether you're about to seal that make-or-break deal, charm the socks off investors, or kick-start your next big project, we’re laser-focused on helping you crush it. Your dreams? We're chasing them right with you. We’re all in, crafting proposals that do more than talk—they shout, “Let’s make this happen!” 
                 </p>
+                 <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
+                So, ready to turn heads and take names? We’ll make your next big move the smoothest one yet!
+                  </p>
+          {/* <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
+            Why Do We Care So Much?
+          </h1>
+                <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
+               Simple: Because we’re your biggest fans! We love watching businesses rise, and nothing gets us more pumped than knowing our work helped you snag that big win that you always dreamed of. So, we pour every ounce of creativity, strategy, and heart into making sure it’s not just great, but legendary. After all, we only celebrate when you do!        
+                </p> */}
         </div>
       </div>
     </section>

@@ -9,16 +9,19 @@ const FirstSection = () => {
       <div className="flex flex-col justify-center w-full 2xl:w-1/2 2xl:ml-28">
         <div className="max-w-full">
           <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
-            Who we are
+            Your Big Idea Deserves a Bigger Proposal—We Make It Happen!
           </h1>
           <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Venenatis arcu enim scelerisque placerat interdum in aliquet varius magnis purus justo primis himenaeos fusce malesuada praesent faucibus mauris purus varius efficitur venenatis class erat fermentum ex habitant lobortis etiam facilisis hendrerit pellentesque nam magnis ut donec potenti pulvinar tempus potenti bibendum euismod aliquet ornare amet at dignissim primis elit semper ornare volutpat congue id aliquam non consectetur lacus nunc eleifend etiam maecenas vitae sollicitudin congue ex massa suscipit pulvinar lorem scelerisque natoque fusce nibh ut curabitur auctor viverra lectus conubia magnis massa posuere nunc conubia scelerisque.
+            Let’s face it: writing a phenomenally brilliant business proposal is like assembling IKEA furniture—tons of potential but seriously confusing instructions. The good news? We’ve got the perfect cheat code for that! At <b>Business Proposal Writer</b>, we specialize in turning your ideas into proposals that don’t just sit pretty, but actually get the job done and bring real results.
           </p>
           <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Venenatis arcu enim scelerisque placerat interdum in aliquet varius magnis purus justo primis himenaeos fusce malesuada praesent faucibus mauris purus varius efficitur venenatis class erat fermentum ex habitant lobortis etiam facilisis hendrerit pellentesque nam magnis ut donec potenti pulvinar tempus potenti bibendum euismod aliquet ornare amet at dignissim primis elit semper ornare volutpat congue id aliquam non consectetur lacus nunc eleifend etiam maecenas vitae sollicitudin congue ex massa suscipit pulvinar lorem.
+            Got a big investor pitch, aiming for that dream partnership, or planning to expand your business empire? We’ve got your back throughout the end! We’ll take your ideas, mix in some writing magic, and craft mind-blowing proposals that make people say, “Where do I sign?” No same old overused templates, no complicated jargon—just clear, compelling plans that tell your story exactly as it deserves.
           </p>
           <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Venenatis arcu enim scelerisque placerat interdum in aliquet varius magnis purus justo primis himenaeos fusce malesuada praesent faucibus mauris purus varius efficitur venenatis class erat fermentum ex habitant lobortis etiam facilisis hendrerit pellentesque nam magnis ut donec potenti pulvinar tempus potenti bibendum euismod aliquet ornare amet at dignissim primis elit semper ornare volutpat congue id aliquam non consectetur lacus nunc eleifend etiam maecenas vitae sollicitudin congue ex massa suscipit pulvinar lorem.
+            Still wondering what’s our superpower? Easy; transforming proposal headaches into daydreams where you win each and every deal. No sweat, all swagger. Why hesitate when you can get set going? We’re ready to whip up something incredible and help you skip the fluff and go straight to winning.
+          </p>
+          <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed font-bold">
+            Stick around and see why we’re not your average proposal writers!
           </p>
         </div>
       </div>

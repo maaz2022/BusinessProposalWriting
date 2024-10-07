@@ -25,7 +25,7 @@ const Footer = () => {
               </Link>
             </h2>
             <p className="text-white text-[16px] md:text-[20px] max-w-full lg:max-w-4xl leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolorum est assumenda adipisci temporibus earum possimus quidem omnis esse officia dignissimos quisquam iste iure, et itaque asperiores, amet ad.
+              Business Proposal Writer transforms your rough ideas into compelling proposals, empowering you to score deals and win the stakeholders with our expert writing services. 
             </p>
             <div className="flex mt-4 space-x-4">
               <a href="#" className="text-white">

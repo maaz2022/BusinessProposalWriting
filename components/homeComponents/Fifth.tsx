@@ -23,11 +23,11 @@ const FifthSection = () => {
       <div className="flex flex-col justify-center w-full lg:w-1/2 md:p-10"> 
         <div className="max-w-full lg:max-w-5xl">
           <h1 className="text-[28px] lg:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
-            Every business plan we have crafted in UAE has been a huge success story!
+            Get the Green Light with Proposals That Turn Your Business Vision into a Signed Contract!
           </h1>
           
           <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px]">
-            You might not need business planning consulting because it is your venture, and you know better how to accelerate its growth. However, you might require our assistance in composing marketing, financial, investor, and all other types of business plans. We have helped some of the leading Emirati enterprises with these documents, and the results have been excellent.
+            From Scribbles to Signatures; Proposals Crafted So Perfectly, They'll Think You’ve Read Their Minds. Because When Your Business Ideas Are Wrapped in Perfection, 'Yes' is The Only Answer You’ll Get—Guaranteed to Make Even the Toughest Client Smile!
           </p>
           
           <button className="px-6 py-2 bg-[#124680] text-white flex items-center gap-3 text-[18px] sm:text-[20px] justify-center hover:bg-blue-400 duration-300 mt-5">

@@ -7,39 +7,39 @@ const FourthSection = () => {
     <section className="flex flex-col md:flex-row mt-12 md:mt-28 gap-10 md:gap-20 items-center justify-center bg-[#083554] md:h-[700px] lg:h-[540px] px-4 md:px-0">
       {/* Left side: Text and icons */}
       <div className="flex flex-col justify-center w-full p-8 md:p-28 lg:p-10 lg:w-1/2"> 
-        <div className="max-w-full md:max-w-4xl lg:max-w-5xl">
+        <div className="max-w-full md:max-w-4xl lg:max-w-5xl 2xl:ml-20">
           <h1 className="xl:text-[28px] lg:text-[20px] sm:text-[32px] md:text-[32px] font-bold text-white leading-tight lg:mt-5">
-            Every business plan we have crafted in UAE has been a huge success story!
+            Design, Execute, Succeed – It All Starts Here!
           </h1>
           <div className='w-20 mt-2 mb-4 border-b-4 border-white'></div>
           <p className="text-white mt-4 text-[16px] sm:text-[18px] md:text-[18px] lg:text-[14px] xl:text-[15px] ">
-            You might not need business planning consulting because it is your venture, and you know better how to accelerate its growth. However, you might require our assistance in composing marketing, financial, investor, and all other types of business plans. We have helped some of the leading Emirati enterprises with these documents, and the results have been excellent.
+            Ever feel like writing a business proposal is like navigating a maze of spreadsheets, projections, and endless jargon? We feel you—growing a business is hard enough without having to worry about the fine print. That’s where we’re here! Whether it’s a financial, investor, or marketing plan, we’ve crafted bespoke strategies for some of the top businesses in the USA—and guess what? They’ve been knocking it out of the park ever since. So why not let us handle the tricky stuff while you focus on steering your business forward? We're pros at turning ideas into action plans that scream "SUCCESS!"
           </p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 text-white">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 text-white ">
             <div className="flex flex-col items-center">
               <ShieldCheck width={40} height={40} className="sm:w-[50px] sm:h-[50px] md:w-[50px] md:h-[50px] lg:w-[40px] xl:w-[50px]" />
-              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px]">Client Security</p>
+              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] 2xl:text-[16px]">Guardians of Your Ideas</p>
             </div>
             <div className="flex flex-col items-center">
               <HandCoins width={40} height={40} className="sm:w-[50px] sm:h-[50px] md:w-[50px]  lg:w-[40px] md:h-[50px]" />
-              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px]">Funds Raised By Our Plan</p>
+              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] 2xl:text-[16px]">Raising Capital, Breaking Records</p>
             </div>
             <div className="flex flex-col items-center">
               <ScrollText width={40} height={40} className="sm:w-[50px] sm:h-[50px] md:w-[50px]  lg:w-[40px] md:h-[50px]" />
-              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px]">By Our Business Plan</p>
+              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] 2xl:text-[16px]">Precision Planning, Perfect Execution</p>
             </div>
             <div className="flex flex-col items-center">
               <Factory width={40} height={40} className="sm:w-[50px] sm:h-[50px] md:w-[50px]  lg:w-[40px] md:h-[50px]" />
-              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px]">Industry/Niches Served</p>
+              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] 2xl:text-[16px]">Leaders in Every Field/Industry</p>
             </div>
             <div className="flex flex-col items-center">
               <CircleFadingArrowUp width={40} height={40} className="sm:w-[50px] sm:h-[50px]  lg:w-[40px] md:w-[50px] md:h-[50px]" />
-              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px]">Expected Turnover</p>
+              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] 2xl:text-[16px]">Turning Plans into Real Profits</p>
             </div>
             <div className="flex flex-col items-center">
               <SquarePen width={40} height={40} className="sm:w-[50px] sm:h-[50px]  lg:w-[40px] md:w-[50px] md:h-[50px]" />
-              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] ">Business Plan Writer</p>
+              <p className="mt-2 text-center text-[14px] sm:text-[16px] md:text-[16px] lg:text-[12px] 2xl:text-[16px] ">Built by Your Personal Hero</p>
             </div>
           </div>
         </div>

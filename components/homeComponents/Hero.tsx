@@ -12,12 +12,12 @@ const Hero = () => {
 
       {/* Text Section */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-start pl-6 md:pl-20 lg:pl-6 xl:pl-20 2xl:pl-60 space-y-6 md:space-y-8 relative z-10">
-        <h1 className="text-black text-4xl md:text-5xl lg:text-[40px] 2xl:text-6xl xl:text-5xl font-bold relative">
-          Create the business you always dreamed of
+        <h1 className="text-black text-4xl md:text-4xl lg:text-[35px] 2xl:text-5xl xl:text-4xl font-bold relative">
+          Land the Deal of Your Dreams with Killer Business Proposal Writers!
         </h1>
 
         <p className="text-black text-base md:text-lg max-w-full md:max-w-xl lg:text-[18px] xl:text-[20px]">
-          We create a customized executive business proposal that meets the unique needs and goals for your business.
+          Pitch with Confidence, Prove with Value, and Close the Deal with Tailor-Made Business Proposal Writing Services That Open Doors to Lasting Success and Unmatched Results!
         </p>
 
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
@@ -25,7 +25,7 @@ const Hero = () => {
             Schedule Call <SquareArrowOutUpRight />
           </button>
           <button className="px-4 py-2  lg:px-3 lg:py-1 xl:px-6 xl:py-2 text-[#124680] justify-center capitalize text-base md:text-lg flex gap-3 items-center border-2 border-[#124680] hover:bg-[#124680] hover:text-white duration-300">
-            Read More <ArrowRight />
+            Chat Now <ArrowRight />
           </button>
         </div>
       </div>

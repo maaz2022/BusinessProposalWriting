@@ -4,19 +4,22 @@ import React from 'react';
 
 const persons = [
   {
-    name: 'Ellyse Perry',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reprehenderit consequatur mollitia praesentium nihil eum debitis facilis, a consectetur obcaecati distinctio.',
+    name: 'Isabella Grant',
+    profession: 'Marketing Graduate',
+    description: "Working with BusinessProposalWriter was nothing short of amazing! Their experienced writers took my ideas and turned them into a fantastic business proposal that really stood out.   ",
     image: '/Ellipse 12.png',
   },
   {
-    name: 'John Doe',
-    description: 'Quisquam, minus! Tempore, architecto dolorem? Ratione expedita, vero accusantium eveniet reiciendis! Adipisci, magnam? Distinctio, excepturi!',
-    image: '/Ellipse 12.png',
+    name: 'Nathaniel Carter',
+    profession: 'MBA Candidate',
+    description: "These guys exceeded my expectations with their exceptional business proposal writing services! The professional writers here were attentive to my needs, and the final proposal was simply outstanding. Their team is not only engaging and effective but also dedicated to delivering high-quality work.",
+    image: '/Ellipse 14.png',
   },
   {
-    name: 'Jane Smith',
-    description: 'Facilis, laboriosam! Dolorem rem reprehenderit odit perferendis. Voluptatibus eveniet, nulla sapiente cum esse, autem iusto beatae.',
-    image: '/Ellipse 12.png',
+    name: 'Chloe',
+    profession: 'Business Administration Student',
+    description: "Their unique approach to business proposals set me apart from the competition and helped me land the internship of my dreams. I highly recommend this business proposal writing agency to anyone looking for authentic online help!",
+    image: '/Ellipse 13.png',
   },
 ];
 
@@ -31,14 +34,14 @@ const EighthSection = () => {
         className='absolute -top-10 left-1/2 transform -translate-x-1/2 md:left-44 '
       />
       {/* Left side: Text and icons */}
-      <div className="flex flex-col justify-center w-full 2xl:w-1/2 p-5 md:p-12"> 
+      <div className="flex flex-col justify-center w-full 2xl:w-1/3 p-5 md:p-12"> 
         <div className="max-w-3xl space-y-8">
           <h1 className="text-[28px] md:text-[36px] font-bold text-white leading-tight">
-            Our Happiness Belongs to you
+            Voices of Victory: Discover the Impact We’ve Created!
           </h1>
           <div className='w-20 mt-2 mb-4 border-b-4 border-white'></div>
           <p className="text-white mt-4 text-[16px] md:text-[20px] max-w-2xl">
-            You might not need business planning consulting because it is your venture, and you know better how to accelerate its growth. However, you might require our assistance in composing marketing, financial, investor, and all other types of business plans. We have helped some of the leading Emirati enterprises with these documents, and the results have been excellent.
+            Join the Ranks of Ambitious Entrepreneurs Who Have Turned Their Visions into Reality, Fueled by Our Relentless Pursuit of Excellence and Dedicated Support Throughout the Process!
           </p>
           <button className="px-6 py-2 bg-[#124680] text-white rounded flex items-center gap-3 text-[18px] md:text-[20px] justify-center hover:bg-blue-400 duration-300">
             Order Now <SquareArrowOutUpRight />
@@ -51,7 +54,7 @@ const EighthSection = () => {
         {/* Cards for additional information */}
         <div className="flex flex-wrap justify-center items-center gap-5 mt-5">
           {persons.map((person, index) => (
-            <div key={index} className='w-full sm:w-[300px] md:w-[300px] lg:w-[250px] h-[400px] md:h-[500px] bg-white flex flex-col items-center p-5 rounded-lg shadow-md'>
+            <div key={index} className='w-full sm:w-[300px] md:w-[300px] lg:w-[275px] h-[400px] md:h-[500px] bg-white flex flex-col items-center p-5 rounded-lg shadow-md'>
               <Image
                 src={person.image}
                 alt='image'
@@ -60,6 +63,7 @@ const EighthSection = () => {
                 className='rounded-full object-cover mb-4'
               />
               <h1 className='font-semibold text-[#083554]'>{person.name}</h1>
+              <h2 className="text-[#124680] text-center">{person.profession}</h2>
               <p className="text-center text-gray-700 mt-2 text-[14px] md:text-[16px]">
                 {person.description}
               </p>

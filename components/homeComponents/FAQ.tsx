@@ -8,17 +8,16 @@ interface FAQItem {
 
 
 const faqsColumn1: FAQItem[] = [
-  { question: "What is your return policy?", answer: "Our return policy allows you to return items within 30 days of purchase." },
-  { question: "How long does shipping take?", answer: "Shipping typically takes 5-7 business days." },
-  { question: "Do you offer international shipping?", answer: "Yes, we ship to various countries worldwide." },
-  { question: "How can I track my order?", answer: "You will receive a tracking number via email once your order has shipped." }
+  { question: "How do business proposal writers help me write a perfect business proposal? ", answer: "Business proposal writers help craft standout proposals by offering expertise and a fresh perspective. They handle research, structure, and industry nuances, tailoring your proposal to meet client needs. Their work ensures your ideas are transformed into a polished, compelling document, reflecting your vision and boosting your chances of success." },
+  { question: "	How to find someone to write a business proposal?", answer: "Looking for a perfect business proposal writer? Start with us! BusinessProposalWriter specializes in crafting compelling proposals that resonate with your audience. While you can explore various online platforms, connecting with our PhD-certified writers guarantees an innovative approach to your project. Our skilled team gets the specifics of your industry, ensuring a polished product that leaves a lasting impact. " },
+  { question: "Can I pay someone to write a business proposal?", answer: "Absolutely! Investing in an expert writer with extensive business proposal writing experience is one of the smartest decisions you can make. By hiring us, you can save time and alleviate stress while ensuring a high-quality document that captures your vision. Our team is well-versed in various industries and can create custom proposals that meet your specification, increasing your chances of securing valuable contracts. " },
 ];
 
 const faqsColumn2: FAQItem[] = [
-  { question: "What payment methods do you accept?", answer: "We accept credit cards, PayPal, and bank transfers." },
-  { question: "Can I change my order after placing it?", answer: "You can change your order within one hour of placing it." },
-  { question: "Do you have a customer service hotline?", answer: "Yes, our customer service hotline is available 24/7." },
-  { question: "What should I do if I received a damaged item?", answer: "Please contact our support team within 48 hours of receiving the item." }
+  { question: "How much does it cost for someone to write a business proposal?", answer: "The cost of hiring a business proposal writer varies depending on factors like project complexity, the writer’s experience, and proposal length. We offer budget-friendly rates and transparent pricing with no hidden fees. You’ll get a personalized quote upfront, plus access to discounts, ensuring great value!" },
+  { question: "How long does it take to write a business plan?", answer: "The time it takes to complete a business plan can vary depending on the project’s complexity and the details provided. On average, it can take anywhere from a few days to a few weeks. If you already have your information ready, we can accelerate the process. Just let us know your deadlines, and our team will ensure timely delivery, focusing on clear communication to meet your needs." },
+  { question: "What information do your writers require to write a business plan?", answer: "To create a strong business plan, we’ll need key details such as your business overview, mission statement, product or service descriptions, and target market. Additionally, a competitor analysis, marketing strategy, and financial projections are essential. The more detailed your input, the better we can tailor your plan to match your vision. Don’t worry—our team will assist you through each step, ensuring nothing is missed!" },
+
 ];
 
 const FAQ = () => {

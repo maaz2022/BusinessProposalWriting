@@ -5,33 +5,33 @@ const AboutFeatures = () => {
     const Aboutfeatures = [
         {
             icon: <Rocket size={70} />,
-            title: 'Start-up Business Plan',
-            description: 'We help our clients to start and operate their start-up with an effective plan along with targeting their long-term goals.'
+            title: 'Bring Your Vision to Life!',
+            description: 'Every thriving business starts with a small idea. We’ll help you take that idea and turn it into a solid, actionable plan. With a roadmap tailored to your vision, we’ll guide you through the maze of business start-ups with ease.'
         },
         {
             icon: <Shapes size={70} />,
-            title: 'Internal Business Plan',
-            description: 'We help our clients to start and operate their start-up with an effective plan along with targeting their long-term goals.'
+            title: 'Build from the Inside Out!',
+            description: 'Want to ensure your team is on the same page? Our internal business plans align your internal operations and goals, keeping everyone focused on what really matters – success from within!.'
         },
         {
             icon: <Lightbulb size={70} />,
-            title: 'Strategic Business Plan',
-            description: 'We help our clients to start and operate their start-up with an effective plan along with targeting their long-term goals.'
+            title: 'Smarter Plans for Epic Wins!',
+            description: 'Take control of your future with a strategic plan that’s both innovative and realistic. We craft strategies that focus on long-term success, designed to help you navigate market challenges and seize opportunities like a pro.'
         },
         {
             icon: <ChartColumnBig size={70} />,
-            title: 'Growth Business Plans',
-            description: 'We help our clients to start and operate their start-up with an effective plan along with targeting their long-term goals.'
+            title: 'Supercharge Your Business Growth!',
+            description: 'Ready to take things up a notch? We build growth plans that are dynamic and scalable, allowing your business to grow without hitting roadblocks. Let’s accelerate your business to new heights!.'
         },
         {
             icon: <FileCheck size={70} />,
-            title: 'Feasibility Business Plan',
-            description: 'We help our clients to start and operate their start-up with an effective plan along with targeting their long-term goals.'
+            title: 'Think Bold, But Plan Smart!',
+            description: 'Got a daring new idea but not sure if it’ll fly? We provide feasibility plans that dig deep into the data, market trends, and risks, helping you make well-informed decisions before you dive in..'
         },
         {
             icon: <Trophy size={70} />,
-            title: 'Operations business Plan',
-            description: 'We help our clients to start and operate their start-up with an effective plan along with targeting their long-term goals.'
+            title: 'Effortless Operations, Easy Success!',
+            description: 'Operations make or break a business. We create operational plans that ensure everything behind the scenes runs like a well-oiled machine. Efficient, effective, and tailor-made to keep your business flourishing..'
         }
     ];
 
@@ -41,10 +41,10 @@ const AboutFeatures = () => {
                 {/* Title Section */}
                 <div className="flex flex-col items-center space-y-5 text-center">
                     <h1 className="text-3xl md:text-5xl font-bold max-w-4xl text-[#083554]">
-                        Lorem ipsum odor amet, consectetuer adipiscing elit.
+                        From Start-Up Dreams to Transformative Realities – Your Breakthrough Awaits!
                     </h1>
                     <p className="font-light text-2xl md:text-2xl text-black pt-5 max-w-7xl">
-                        BusinessPlanner.ae is the most affordable business planning service in Abu Dhabi, Dubai, Ajman and Sharjah with the highest business growth rate of the clients. There is a variety of business plans offered by BusinessPlanner.ae
+                        From Napkin Sketches to CEO Status, We’re Here to Help You Plot World Domination – Because Ambitious Dreams Deserve Even Greater Action Plans!
                     </p>
                   
                 </div>

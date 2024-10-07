@@ -5,33 +5,33 @@ const Features = () => {
     const features = [
         {
             icon: <HandshakeIcon size={50} />,
-            title: 'Expert Team',
-            description: 'Our team consists of highly qualified and professional Dubai business plan writers to provide you with the perfect plan.'
+            title: 'Best Business Plan Writers:',
+            description: 'Our team is packed with professional business proposal writers near you, who don’t just scribble words—they craft winning strategies! Each expert comes armed with years of experience, insider knowledge, and a serious knack for nailing the perfect business plan customized to your needs.'
         },
         {
             icon: <Headset size={50} />,
-            title: 'Customer Support',
-            description: 'Our customer support representatives provide their assistance 24/7 to all the clients ensuring their satisfaction.'
+            title: 'At Your Service, Anytime:',
+            description: 'Working past sunset? No problem, we’re here for that. We offer 24/7 support so you can reach us whenever inspiration—or panic—strikes. Your success never sleeps, and neither do we!'
         },
         {
             icon: <Grid2x2Check size={50} />,
-            title: 'Easily Affordable',
-            description: 'We have kept our prices reasonable and easily affordable for all to get their business plan Dubai.'
+            title: 'Budget-Friendly Brilliance:',
+            description: 'We get it—budgets are tight. That’s why we’ve kept our pricing super reasonable. Exceptional business proposal writing service providers deliver top-quality without leaving your wallet crying in the corner.'
         },
         {
             icon: <Star size={50} />,
-            title: 'Fully Tailored',
-            description: 'Our business plan writing services in UAE are custom-built according to the client\'s business requirements and industry.'
+            title: 'Made Just for ‘You!’:',
+            description: 'No two businesses are the same, so why should your plan be? With our expert help writing a business proposal, every plan is custom-crafted to meet your specific needs. Consider us the tailors of the business world—perfect fit, every time..'
         },
         {
             icon: <FileSearch size={50} />,
-            title: 'Reliable Research',
-            description: 'Our business planning Dubai is based on reliable and extensive research conducted by our competent business plan writers.'
+            title: 'Perfection in Every Word:',
+            description: 'We don’t just stop at writing; we fine-tune, polish, and perfect every word. With our comprehensive business proposal writing services, we go the extra mile with detailed editing and proofreading.'
         },
         {
             icon: <FolderUp size={50} />,
-            title: 'Growth Strategy',
-            description: 'We also provide other services like website development, lead generation, marketing strategy to help you grow your business.'
+            title: 'Market Research Magic:',
+            description: 'Want to create a killer business plan? We dig deep into your market, uncovering juicy insights on competitors, trends, and customer behaviors, ensuring your plan isn’t just solid—it’s bulletproof'
         }
     ];
 
@@ -41,10 +41,10 @@ const Features = () => {
                 {/* Title Section */}
                 <div className="flex flex-col items-center space-y-5 text-center">
                     <h1 className="font-light text-2xl md:text-3xl text-black pt-10">
-                        Why we are different?
+                        Why Trust Us with Your Business Proposal?
                     </h1>
                     <h2 className="text-3xl md:text-5xl font-bold max-w-2xl text-[#083554]">
-                        Our Unique Features
+                        See for Yourself!
                     </h2>
                     <div className='w-20 md:w-40 mt-2 mb-4 border-b-4 md:border-b-8 rounded-md border-[#083554]'></div>
                 </div>
