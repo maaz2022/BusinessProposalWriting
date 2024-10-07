@@ -5,7 +5,7 @@ const Discount = () => {
   return (
     <section className="relative flex justify-center items-center bg-white shadow-lg rounded-3xl border-2 border-gray-300 lg:max-w-6xl md:max-w-6xl max-w-[450px] h-auto my-6 mx-auto p-6 md:p-11 bottom-20">
       <div className="text-[#083554] w-full">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">
+        <h1 className="xl:text-4xl md:text-3xl lg:text-4xl font-bold mb-6 text-center lg:text-[30px]">
           Sign up with Legacy Writes to Avail Our Exclusive Discounts
         </h1>
 

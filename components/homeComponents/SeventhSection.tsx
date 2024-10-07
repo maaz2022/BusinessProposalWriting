@@ -2,7 +2,7 @@ import React from 'react';
 
 const SeventhSection = () => {
   return (
-    <section className="bg-white py-16 px-4 lg:px-20 text-[#083554]">
+    <section className="bg-white py-16 px-4 xl:px-20 lg:px-0  text-[#083554]">
       {/* Upper Section: Two Columns */}
       <div className="flex flex-col lg:flex-row justify-between lg:mx-[120px]">
         {/* Left Column (Title Section) */}
@@ -23,9 +23,9 @@ const SeventhSection = () => {
       </div>
 
       {/* Lower Section: Two More Columns */}
-      <div className="flex flex-col lg:flex-row justify-between mt-16 lg:mx-[120px]">
+      <div className="flex flex-col lg:flex-row justify-between mt-16 lg:mx-[50px] xl:mx-[120px]">
         {/* First Lower Column */}
-        <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0">
+        <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0 lg:mr-10">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">UAE&apos;S Top Business Planners At Your Service!</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
             Customers and their needs are the core of everything we do at our business plan company. We follow a client-centric approach to craft documents that translate your business vision and aspirations. Our goal is to bring your corporate dreams to reality. The reason why so many corporate entities from Dubai, Abu Dhabi, Sharjah, Ajman, Fujairah, Al Ain, Ras Al Khaimah, and Umm Al Quwain trust our services is we deliver complete value for their money.
@@ -42,9 +42,9 @@ const SeventhSection = () => {
       </div>
 
       {/* Third Section */}
-      <div className="flex flex-col lg:flex-row justify-between mt-16 lg:mx-[120px]">
+      <div className="flex flex-col lg:flex-row justify-between mt-16 xl:mx-[120px] lg:mx-[50px]">
         {/* First Lower Column */}
-        <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0">
+        <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0 lg:mr-10">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Delivering The Best Plans Your Business Deserves In UAE</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
             Starting your business journey without a comprehensive plan is similar to crossing an ocean without a boat. At BusinessPlanner.ae, we recognize the pivotal role these well-crafted documents play in your success story. Our seasoned business proposal writers do not just craft corporate drafts; they sculpt roadmaps to victory. Customers choose our services because we help them attract investors, secure funding, and navigate regulatory landscapes. 

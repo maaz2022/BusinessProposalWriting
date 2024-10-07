@@ -11,28 +11,28 @@ const Hero = () => {
       <div className="absolute right-0 bottom-10 w-[600px] h-[700px] md:w-[750px] md:h-[900px] blur-[90px] rounded-full bg-[#124680] opacity-40 z-0"></div>
 
       {/* Text Section */}
-      <div className="w-full lg:w-1/2 flex flex-col justify-center items-start pl-6 md:pl-20 lg:pl-60 space-y-6 md:space-y-8 relative z-10">
-        <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold relative ">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-start pl-6 md:pl-20 lg:pl-6 xl:pl-20 2xl:pl-60 space-y-6 md:space-y-8 relative z-10">
+        <h1 className="text-black text-4xl md:text-5xl lg:text-[40px] 2xl:text-6xl xl:text-5xl font-bold relative">
           Create the business you always dreamed of
         </h1>
 
-        <p className="text-black text-base md:text-lg max-w-full md:max-w-xl">
+        <p className="text-black text-base md:text-lg max-w-full md:max-w-xl lg:text-[18px] xl:text-[20px]">
           We create a customized executive business proposal that meets the unique needs and goals for your business.
         </p>
 
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-          <button className="px-6 py-2 bg-[#124680] text-white rounded flex items-center gap-3 text-base md:text-lg justify-center hover:bg-blue-400 duration-300">
+          <button className="xl:px-6 xl:py-2 px-4 py-2 bg-[#124680] text-white rounded flex items-center gap-3 text-base md:text-lg justify-center hover:bg-blue-400 duration-300 lg:px-3 lg:py-1">
             Schedule Call <SquareArrowOutUpRight />
           </button>
-          <button className="px-6 py-2 text-[#124680] justify-center capitalize text-base md:text-lg flex gap-3 items-center border-2 border-[#124680] hover:bg-[#124680] hover:text-white duration-300">
+          <button className="px-4 py-2  lg:px-3 lg:py-1 xl:px-6 xl:py-2 text-[#124680] justify-center capitalize text-base md:text-lg flex gap-3 items-center border-2 border-[#124680] hover:bg-[#124680] hover:text-white duration-300">
             Read More <ArrowRight />
           </button>
         </div>
       </div>
 
       {/* Image Section */}
-      <div className="w-full lg:w-1/2 flex justify-center items-center pr-0 lg:pr-32 pb-10 relative z-10">
-        <Image src="/Group 45.png" alt="business image" width={500} height={300} className="w-full max-w-xs md:max-w-md  h-auto" />
+      <div className="w-full lg:w-1/2 flex justify-center items-center pr-0 lg:pl-32 2xl:pr-32 pb-10 relative z-10">
+        <Image src="/Group 45.png" alt="business image" width={500} height={300} className="w-full max-w-xs md:max-w-md  h-auto lg:w-[300px] 2xl:w-full" />
       </div>
     </section>
   );

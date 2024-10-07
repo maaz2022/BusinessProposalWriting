@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <section className="py-8 bg-[#12458015] relative z-20"> {/* Ensuring Navbar has a higher z-index */}
-      <div className="flex items-center justify-between px-4 md:px-10 lg:px-20 xl:px-44">
+      <div className="flex items-center justify-between px-4 md:px-10 lg:px-12 xl:px-44">
 
         {/* Logo Section */}
         <div className="flex-shrink-0">

@@ -10,7 +10,7 @@ const Features = () => {
         },
         {
             icon: <Headset size={50} />,
-            title: '24/7 Customer Support',
+            title: 'Customer Support',
             description: 'Our customer support representatives provide their assistance 24/7 to all the clients ensuring their satisfaction.'
         },
         {

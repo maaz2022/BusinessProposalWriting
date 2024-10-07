@@ -8,11 +8,11 @@ const ThirdSection = () => {
 
       <div className="flex flex-col justify-center w-full lg:w-1/2 md:p-10"> 
         <div className="max-w-full lg:max-w-5xl">
-          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-white leading-tight">
+          <h1 className="xl:text-[28px] text-[32px] md:text-[36px] font-bold text-white leading-tight lg:text-[24px] mt-7">
             Every business plan we have crafted in UAE has been a huge success story!
           </h1>
           
-          <p className="text-white mt-4 text-[16px] sm:text-[18px] md:text-[20px]">
+          <p className="text-white mt-4 text-[16px] sm:text-[18px] md:text-[15px] lg:text-[15px] xl:text-[20px]">
             You might not need business planning consulting because it is your venture, and you know better how to accelerate its growth. However, you might require our assistance in composing marketing, financial, investor, and all other types of business plans. We have helped some of the leading Emirati enterprises with these documents, and the results have been excellent.
           </p>
           

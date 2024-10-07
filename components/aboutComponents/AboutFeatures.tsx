@@ -54,11 +54,11 @@ const AboutFeatures = () => {
                     {Aboutfeatures.map((feature, index) => (
                         <div
                         key={index}
-                        className='flex flex-col shadow-xl rounded-lg p-6 '
+                        className='flex flex-col shadow-xl rounded-lg p-6 items-center justify-center'
                         >
-                        {/* Container for icon and text to be aligned horizontally */}
-                        <div className="flex items-center">
-                            <div className='text-[#083554] mr-4'> {/* Icon with margin to the right */}
+                    
+                        <div className="xl:flex items-center">
+                            <div className='text-[#083554] mr-4 pb-3'> {/* Icon with margin to the right */}
                             {feature.icon}
                             </div>
                             <div> {/* Title and description */}

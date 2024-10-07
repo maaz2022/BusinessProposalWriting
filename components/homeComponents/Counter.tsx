@@ -39,7 +39,7 @@ const CounterSection = () => {
   };
 
   return (
-    <section className="flex flex-wrap justify-center items-center gap-6 py-10 sm:gap-12 md:gap-16  md:py-16 lg:gap-48 lg:py-20">
+    <section className="flex flex-wrap justify-center items-center gap-6 py-10 sm:gap-12 md:gap-16  md:py-16 lg:gap-20 2xl:gap-48 lg:py-20 ">
       {Array(4).fill(null).map((_, index) => (
         <div className="text-center" key={index}>
           <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#083554]">{formatCounter(counter)}+</h2>

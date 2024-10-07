@@ -4,7 +4,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <section className='relative flex justify-between items-center bg-gradient-to-t from-[#083554] to-cyan-600 rounded-3xl  lg:max-w-6xl md:max-w-6xl  h-[250px] my-6 mx-auto p-11 mt-28'>
+    <section className='relative flex justify-between items-center bg-gradient-to-t from-[#083554] to-cyan-600 rounded-3xl  lg:max-w-6xl md:max-w-6xl  h-[250px] my-6 xl:mx-auto p-11 mt-28 lg:mx-5 md:mx-5 mx-5'>
 
         <div className='text-white'>
             <h1 className='text-2xl font-bold'>
