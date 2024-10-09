@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link href="/about" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">About Us</Link>
           <Link href="/services" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">Services</Link>
           <Link href="#" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">Testimonials</Link>
-          <Link href="#" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">Contact Us</Link>
+          <Link href="/contact" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">Contact Us</Link>
         </div>
 
         {/* WhatsApp Contact (Hidden on small screens, shown on sm and above) */}
@@ -89,7 +89,7 @@ const Navbar = () => {
           <Link href="/about" className="text-md font-medium hover:text-[#124680]">About Us</Link>
           <Link href="/services" className="text-md font-medium hover:text-[#124680]">Services</Link>
           <Link href="#" className="text-md font-medium hover:text-[#124680]">Testimonials</Link>
-          <Link href="#" className="text-md font-medium hover:text-[#124680]">Contact Us</Link>
+          <Link href="/contact" className="text-md font-medium hover:text-[#124680]">Contact Us</Link>
 
           {/* WhatsApp Contact in the Sidebar */}
           <div className="flex items-center space-x-2 bg-[#124680] py-3 text-white px-4 rounded-xl hover:bg-[#126180]">
