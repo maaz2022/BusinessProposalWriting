@@ -3,9 +3,9 @@ import React from 'react';
 
 const ThirdSection = () => {
   return (
-    <section className="flex flex-col md:flex-col 2xl:flex-row lg:flex-row  mt-12 md:mt-28 gap-10 md:gap-20 items-center justify-center px-4">
+    <section className="flex flex-col md:flex-col 2xl:flex-row lg:flex-row  mt-12 md:mt-28 gap-5 md:gap-5 items-center justify-center px-4">
 
-      <div className="flex justify-center items-center w-full lg:w-1/2 2xl:ml-36 md:max-w-[500px]">
+      <div className="flex justify-center items-center w-full lg:w-1/2 2xl:ml-36  md:max-w-[500px]">
         <Image
           src="/Group_48 (1).png" 
           alt="Sample Image"
