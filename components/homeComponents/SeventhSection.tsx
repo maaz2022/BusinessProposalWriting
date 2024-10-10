@@ -26,7 +26,7 @@ const SeventhSection = () => {
         <div className="max-w-2xl">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Human-Crafted, 100% Original Content</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
-            Worried about AI-generated or plagiarized content? Don’t be! #1 Business proposal writing services are powered by real human writers who bring creativity, originality, and strategic thinking into every project. Each proposal is hand-crafted from scratch, ensuring it's free from any plagiarism and uniquely tailored to your business needs. So, why wait? Trust us – we deliver proposals that don’t just check boxes but tell your story in a way that makes you stand out in a sea of sameness.
+            Worried about AI-generated or plagiarized content? Don’t be! #1 Business proposal writing services are powered by real human writers who bring creativity, originality, and strategic thinking into every project. Each proposal is hand-crafted from scratch, ensuring it&apos;s free from any plagiarism and uniquely tailored to your business needs. So, why wait? Trust us – we deliver proposals that don’t just check boxes but tell your story in a way that makes you stand out in a sea of sameness.
           </p>
         </div>
 
