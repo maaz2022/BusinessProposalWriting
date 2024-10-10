@@ -1,6 +1,7 @@
 'use client';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 
@@ -34,7 +35,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to a backend)
+
     console.log('Form data:', formData);
   };
 
@@ -48,7 +49,7 @@ const ContactForm = () => {
         <div className='w-20  mb-4 border-b-4 border-[#083554]'></div>
         <p className="text-start mb-4 text-[#083554]">We are anticipating working with you! Fill in the form and our representative will get back to you within 24 hours.</p>
 
-        {/* First Name and Last Name Input */}
+
         <div className="mb-4 grid grid-cols-2 gap-4">
           <input
             className="w-full p-2  rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 border border-[#083554]"
@@ -70,7 +71,7 @@ const ContactForm = () => {
           />
         </div>
 
-        {/* Email Input */}
+  
         <div className="mb-4">
           <input
             className="w-full p-2 border border-[#083554] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -83,7 +84,7 @@ const ContactForm = () => {
           />
         </div>
 
-        {/* Phone Number Input */}
+     
         <div className="mb-4">
           <input
             className="w-full p-2 border border-[#083554] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -96,7 +97,7 @@ const ContactForm = () => {
           />
         </div>
 
-        {/* City Input */}
+
         <div className="mb-4">
           <input
             className="w-full p-2 border border-[#083554] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -109,7 +110,7 @@ const ContactForm = () => {
           />
         </div>
 
-        {/* Reason Textarea */}
+  
         <div className="mb-4">
           <textarea
             className="w-full p-2 border border-[#083554] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -122,7 +123,7 @@ const ContactForm = () => {
           ></textarea>
         </div>
 
-        {/* Business Level Dropdown */}
+     
         <div className="mb-4">
           <select
             className="w-full p-2 border border-[#083554] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -148,7 +149,7 @@ const ContactForm = () => {
         </button>
       </form>
 
-      {/* Contact Information Section */}
+    
       <div className="w-full 2xl:w-1/2 2xl:h-[650px] mt-8 lg:mt-0 lg:ml-8 flex-grow lg:max-w-3xl 2xl:mr-28">
         <div className="hidden lg:block ">
           <Image 
@@ -158,21 +159,32 @@ const ContactForm = () => {
             height={600}
           />
         </div>
-        {/* Replace this div with your image or media content */}
-        <div className="flex flex-col items-start justify-center bg-white p-8 rounded-xl shadow-md lg:max-w-[600px]  h-[270px] mt-5 border-2 border-[#083554]">
-          <p className="mb-4 flex items-center">
-            <Phone size={40} className='mr-4 p-2 bg-blue-200 rounded-full text-[#083554]' />
-            Phone <br /> +1 (234) 567890
-          </p>
-          <p className="mb-4 flex items-center">
-            <Mail size={40} className='mr-4 p-2 bg-blue-200 rounded-full text-[#083554]' />
-            Email <br /> info@businessproposalwriter.com
-          </p>
-          <p className='flex items-center'>
-            <MapPin size={40} className='mr-4 p-2 bg-blue-200 rounded-full text-[#083554]' />
-            Address <br /> 1165 Jacobs Street, Oregon, 97063
-          </p>
+   
+      <div className="flex flex-col items-start justify-center bg-white p-8 rounded-xl shadow-md lg:max-w-[600px] h-[270px] mt-5 border-2 border-[#083554]">
+        <div className="mb-4 flex items-center">
+          <Phone size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
+          <div>
+            Phone <br />
+            <Link href="https://wa.me/12067467149">+1 206-746-7149</Link>
+          </div>
         </div>
+        <div className="mb-4 flex items-center">
+          <Mail size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
+          <div>
+            Email <br />
+            <a href="mailto:info@businessproposalwriter.com">info@businessproposalwriter.com</a>
+          </div>
+        </div>
+        <div className="flex items-center">
+          <MapPin size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
+          <div>
+            Address <br />
+            30 N Gould St Ste R Sheridan, WY 82801
+          </div>
+        </div>
+      </div>
+
+
       </div>
     </div>
   );

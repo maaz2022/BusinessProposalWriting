@@ -38,7 +38,7 @@ const AboutFeatures = () => {
     return (
         <>
             <section className=' py-16 px-4 md:px-20 mt-10'>
-                {/* Title Section */}
+          
                 <div className="flex flex-col items-center space-y-5 text-center">
                     <h1 className="text-3xl md:text-5xl font-bold max-w-4xl text-[#083554]">
                         From Start-Up Dreams to Transformative Realities – Your Breakthrough Awaits!
@@ -49,7 +49,7 @@ const AboutFeatures = () => {
                   
                 </div>
 
-                {/* AboutFeatures Grid */}
+          
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mx-auto max-w-7xl px-4'>
                     {Aboutfeatures.map((feature, index) => (
                         <div
@@ -61,7 +61,7 @@ const AboutFeatures = () => {
                             <div className='text-[#083554] mr-4 pb-3'> {/* Icon with margin to the right */}
                             {feature.icon}
                             </div>
-                            <div> {/* Title and description */}
+                            <div> 
                             <h3 className='font-bold text-xl text-[#083554] mb-2 text-start'>
                                 {feature.title}
                             </h3>

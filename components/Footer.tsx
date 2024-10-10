@@ -1,4 +1,4 @@
-import { Clock, Facebook, Instagram, Linkedin, Mail, X } from 'lucide-react';
+import { Clock, Facebook, Instagram, Linkedin, Mail, Phone, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -48,7 +48,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="/about" className="text-white hover:underline">About us</a></li>
-              <li><a href="#" className="text-white hover:underline">Contact us</a></li>
+              <li><a href="/contact" className="text-white hover:underline">Contact us</a></li>
               <li><a href="#" className="text-white hover:underline">Pricing</a></li>
               <li><a href="#" className="text-white hover:underline">Book Consultant</a></li>
               <li><a href="#" className="text-white hover:underline">Sitemap</a></li>
@@ -72,9 +72,10 @@ const Footer = () => {
                 <Clock className="mr-2" /> Saturday - Thursday 9am to 7pm
               </p>
               <p className="flex items-center">
-                <Mail className="mr-2" /> info@businessproposalwriter
+                <Mail className="mr-2" /> <a href="mailto:info@businessproposalwriter.com">info@businessproposalwriter.com</a>
               </p>
-              <p>+971 562 906 253</p>
+              <p className='flex items-center'><Phone className='mr-2'/><a href="https://wa.me/12067467149">+1 206-746-7149</a></p>
+              
             </div>
           </div>
 

@@ -13,7 +13,7 @@ const FourthSection = () => {
           </h1>
           <div className='w-20 mt-2 mb-4 border-b-4 border-white'></div>
           <p className="text-white mt-4 text-[16px] sm:text-[18px] md:text-[18px] lg:text-[14px] xl:text-[15px] ">
-            Ever feel like writing a business proposal is like navigating a maze of spreadsheets, projections, and endless jargon? We feel you—growing a business is hard enough without having to worry about the fine print. That’s where we’re here! Whether it’s a financial, investor, or marketing plan, we’ve crafted bespoke strategies for some of the top businesses in the USA—and guess what? They’ve been knocking it out of the park ever since. So why not let us handle the tricky stuff while you focus on steering your business forward? We're pros at turning ideas into action plans that scream "SUCCESS!"
+            Ever feel like writing a business proposal is like navigating a maze of spreadsheets, projections, and endless jargon? We feel you—growing a business is hard enough without having to worry about the fine print. That’s where we’re here! Whether it’s a financial, investor, or marketing plan, we’ve crafted bespoke strategies for some of the top businesses in the USA—and guess what? They’ve been knocking it out of the park ever since. So why not let us handle the tricky stuff while you focus on steering your business forward? We&aposre pros at turning ideas into action plans that scream "SUCCESS!"
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 text-white ">

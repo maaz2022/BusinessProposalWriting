@@ -28,7 +28,7 @@ const SeventhSection = () => {
         <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0 lg:mr-10">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Human-Crafted, 100% Original Content</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
-            Worried about AI-generated or plagiarized content? Don’t be! #1 Business proposal writing services are powered by real human writers who bring creativity, originality, and strategic thinking into every project. Each proposal is hand-crafted from scratch, ensuring it's free from any plagiarism and uniquely tailored to your business needs. So, why wait? Trust us – we deliver proposals that don’t just check boxes but tell your story in a way that makes you stand out in a sea of sameness..
+            Worried about AI-generated or plagiarized content? Don’t be! #1 Business proposal writing services are powered by real human writers who bring creativity, originality, and strategic thinking into every project. Each proposal is hand-crafted from scratch, ensuring it&aposs free from any plagiarism and uniquely tailored to your business needs. So, why wait? Trust us – we deliver proposals that don’t just check boxes but tell your story in a way that makes you stand out in a sea of sameness..
           </p>
         </div>
 
@@ -70,7 +70,7 @@ const SeventhSection = () => {
 
         {/* Second Lower Column */}
         <div className="w-full lg:w-1/2 max-w-2xl">
-          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Free Consultations – Let's Brainstorm Your Success</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Free Consultations – Let&aposs Brainstorm Your Success</h3>
           <p className="text-[16px] md:text-[20px]">
             Stuck at the starting line, unsure how to shape your proposal? We’ve got you covered! Our free consultation service gives you the chance to express your doubts, get clarity, and receive expert advice to steer your proposal in the right direction. We’re here to provide effective help writing a business proposal; turning your ideas into a compelling proposal, and assisting you at every step.
           </p>
