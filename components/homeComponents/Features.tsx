@@ -38,7 +38,7 @@ const Features = () => {
     return (
         <>
             <section className='bg-blue-200 py-16 px-4 md:px-20 mt-10'>
-                {/* Title Section */}
+             
                 <div className="flex flex-col items-center space-y-5 text-center">
                     <h1 className="font-light text-2xl md:text-3xl text-black pt-10">
                         Why Trust Us with Your Business Proposal?
@@ -49,7 +49,7 @@ const Features = () => {
                     <div className='w-20 md:w-40 mt-2 mb-4 border-b-4 md:border-b-8 rounded-md border-[#083554]'></div>
                 </div>
 
-                {/* Features Grid */}
+             
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mx-auto max-w-6xl px-4'>
                     {features.map((feature, index) => (
                         <div

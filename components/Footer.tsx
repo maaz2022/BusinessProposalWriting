@@ -6,7 +6,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="relative bg-FooterBg bg-cover bg-center text-white py-8 h-auto">
-      {/* Blue Overlay */}
+
       <div className="absolute inset-0 bg-[#083554] opacity-90 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -28,22 +28,22 @@ const Footer = () => {
               Business Proposal Writer transforms your rough ideas into compelling proposals, empowering you to score deals and win the stakeholders with our expert writing services. 
             </p>
             <div className="flex mt-4 space-x-4">
-              <a href="#" className="text-white">
+              <a href="https://www.instagram.com/businessproposal_writers" className="text-white">
                 <Instagram size={30} />
               </a>
-              <a href="#" className="text-white">
+              <a href="https://www.facebook.com/businesspr0posalwriters" className="text-white">
                 <Facebook size={30} />
               </a>
-              <a href="#" className="text-white">
+              <a href="https://x.com/BusProWriters" className="text-white">
                 <X size={30} />
               </a>
-              <a href="#" className="text-white">
+              <a href="https://www.linkedin.com/company/businessproposalwriters" className="text-white">
                 <Linkedin size={30} />
               </a>
             </div>
           </div>
 
-          {/* Links Section */}
+    
           <div className="w-full lg:w-1/4 text-left mb-8 lg:mt-32 lg:pl-20">
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
@@ -55,7 +55,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services Section */}
+         
           <div className="w-full lg:w-1/4 text-left mb-8 lg:mt-32">
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
@@ -64,7 +64,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Information Section */}
+    
           <div className="w-full lg:w-1/4 text-left mb-8 lg:mt-32">
             <h3 className="text-lg font-semibold mb-4">Information</h3>
             <div className="space-y-6">

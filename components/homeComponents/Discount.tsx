@@ -9,7 +9,7 @@ const Discount = () => {
           Don’t Let the Next Opportunity Slip Away – Hire a Pro Now!
         </h2>
 
-        {/* Responsive Form */}
+      
         <form className="flex flex-col md:flex-row items-center justify-center gap-4 ">
           <input
             type="text"

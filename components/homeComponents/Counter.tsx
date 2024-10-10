@@ -26,7 +26,7 @@ const CounterSection = () => {
 
   const formatCounter = (count: number, index: number): string => {
     const formattedCount = count.toString().padStart(3, '0');
-    return index === 3 ? `${formattedCount}%` : `${formattedCount}+`; // Use % for the last counter
+    return index === 3 ? `${formattedCount}%` : `${formattedCount}+`; 
   };
 
   return (

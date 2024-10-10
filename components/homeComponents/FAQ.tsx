@@ -59,7 +59,7 @@ const FAQ = () => {
           ))}
         </div>
 
-        {/* Column 2 */}
+    
         <div className='space-y-5'>
           {faqsColumn2.map((faq, index) => (
             <div

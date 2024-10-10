@@ -5,7 +5,7 @@ import React from 'react';
 const FifthSection = () => {
   return (
     <section className="flex flex-col lg:flex-row mt-12 md:mt-28 gap-10 md:gap-20 items-center justify-center px-4 md:px-0">
-      {/* Image Section */}
+    
       <div className="w-full lg:w-1/3 flex justify-center items-center mb-8 md:mb-0">
         <div className="h-auto w-full max-w-[400px]">
           <Image
@@ -19,7 +19,7 @@ const FifthSection = () => {
         </div>
       </div>
   
-      {/* Text Section */}
+  
       <div className="flex flex-col justify-center w-full lg:w-1/2 md:p-10"> 
         <div className="max-w-full lg:max-w-5xl">
           <h1 className="text-[28px] lg:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">

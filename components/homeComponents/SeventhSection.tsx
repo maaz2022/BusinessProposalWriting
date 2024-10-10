@@ -3,9 +3,9 @@ import React from 'react';
 const SeventhSection = () => {
   return (
     <section className="bg-white py-16 px-4 xl:px-20 lg:px-0  text-[#083554]">
-      {/* Upper Section: Two Columns */}
+ 
       <div className="flex flex-col lg:flex-row justify-between lg:mx-[120px]">
-        {/* Left Column (Title Section) */}
+ 
         <div className="w-full md:w-full lg:w-1/2 max-w-[430px] flex flex-col space-y-5">
           <h2 className='text-xl md:text-2xl font-bold'>Go from Blank Page to Bold Pitch!</h2>
           <h1 className="text-2xl md:text-3xl font-bold text-[#083554] mb-4">
@@ -22,9 +22,9 @@ const SeventhSection = () => {
         </div>
       </div>
 
-      {/* Lower Section: Two More Columns */}
+
       <div className="flex flex-col lg:flex-row justify-between mt-16 lg:mx-[50px] xl:mx-[120px]">
-        {/* First Lower Column */}
+  
         <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0 lg:mr-10">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Human-Crafted, 100% Original Content</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
@@ -32,7 +32,7 @@ const SeventhSection = () => {
           </p>
         </div>
 
-        {/* Second Lower Column */}
+      
         <div className="w-full lg:w-1/2 max-w-2xl">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">No Jargon, No Fluff – Just Results</h3>
           <p className="text-[16px] md:text-[20px]">
@@ -41,9 +41,9 @@ const SeventhSection = () => {
         </div>
       </div>
 
-      {/* Third Section */}
+   
       <div className="flex flex-col lg:flex-row justify-between mt-16 xl:mx-[120px] lg:mx-[50px]">
-        {/* First Lower Column */}
+      
         <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0 lg:mr-10">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Unlimited Revisions – Crafting Perfection Together</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
@@ -51,7 +51,7 @@ const SeventhSection = () => {
           </p>
         </div>
 
-        {/* Second Lower Column */}
+       
         <div className="w-full lg:w-1/2 max-w-2xl">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Proposals That Open Doors, Not Files</h3>
           <p className="text-[16px] md:text-[20px]">
@@ -60,7 +60,7 @@ const SeventhSection = () => {
         </div>
       </div>
             <div className="flex flex-col lg:flex-row justify-between mt-16 xl:mx-[120px] lg:mx-[50px]">
-        {/* First Lower Column */}
+    
         <div className="w-full lg:w-1/2 max-w-2xl mb-8 md:mb-0 lg:mr-10">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Your Growth Is Our Story</h3>
           <p className="text-[16px] md:text-[20px] max-w-3xl">
@@ -68,7 +68,7 @@ const SeventhSection = () => {
           </p>
         </div>
 
-        {/* Second Lower Column */}
+    
         <div className="w-full lg:w-1/2 max-w-2xl">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-[#083554]">Free Consultations – Let&aposs Brainstorm Your Success</h3>
           <p className="text-[16px] md:text-[20px]">

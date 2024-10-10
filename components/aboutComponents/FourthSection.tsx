@@ -4,7 +4,7 @@ import React from 'react';
 const FourthSection = () => {
   return (
     <section className="flex flex-col md:flex-col 2xl:flex-row mt-12 md:mt-28 gap-10 md:gap-10 items-center justify-center px-4 mb-8">
-      {/* Left side with image */}
+  
       <div className="flex justify-center items-center w-full 2xl:w-1/2">
         <Image
           src="/Mask group-2.png"
@@ -15,7 +15,7 @@ const FourthSection = () => {
         />
       </div>
 
-      {/* Right side with text */}
+
       <div className="flex flex-col justify-center w-full 2xl:w-1/2 2xl:mr-40 lg:px-7"> 
         <div className="max-w-full md:max-w-7xl lg:max-w-6xl">
           <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">

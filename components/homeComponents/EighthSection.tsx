@@ -33,7 +33,7 @@ const EighthSection = () => {
         width={100}
         className='absolute -top-10 left-1/2 transform -translate-x-1/2 md:left-44 '
       />
-      {/* Left side: Text and icons */}
+    
       <div className="flex flex-col justify-center w-full 2xl:w-1/3 p-5 md:p-12"> 
         <div className="max-w-3xl space-y-8">
           <h1 className="text-[28px] md:text-[36px] font-bold text-white leading-tight">
@@ -49,9 +49,9 @@ const EighthSection = () => {
         </div>
       </div>
 
-      {/* Right side: Cards */}
+    
       <div className="w-full 2xl:w-1/2 h-full flex flex-col justify-center items-center gap-5">
-        {/* Cards for additional information */}
+      
         <div className="flex flex-wrap justify-center items-center gap-5 mt-5">
           {persons.map((person, index) => (
             <div key={index} className='w-full sm:w-[300px] md:w-[300px] lg:w-[275px] h-[400px] md:h-[500px] bg-white flex flex-col items-center p-5 rounded-lg shadow-md'>

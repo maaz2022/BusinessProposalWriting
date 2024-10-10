@@ -139,7 +139,7 @@ const ContactForm = () => {
           </select>
         </div>
 
-        {/* Submit Button and CAPTCHA */}
+     
         <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} className='flex justify-center' />
         <button
           className="w-full bg-[#083554] text-white py-3 rounded-xl hover:bg-[#082f54] transition-colors mt-5"
