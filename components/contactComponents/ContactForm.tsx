@@ -165,7 +165,7 @@ const ContactForm = () => {
           <Phone size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
           <div>
             Phone <br />
-            <Link href="https://wa.me/12067467149">+1 206-746-7149</Link>
+            <Link rel='nofollow' href="https://wa.me/12067467149" target='_blank'  >+1 206-746-7149</Link>
           </div>
         </div>
         <div className="mb-4 flex items-center">

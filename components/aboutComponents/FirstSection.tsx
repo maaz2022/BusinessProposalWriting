@@ -3,10 +3,10 @@ import React from 'react';
 
 const FirstSection = () => {
   return (
-    <section className="flex flex-col-reverse lg:flex-col-reverse 2xl:flex-row pt-12 md:pt-28 gap-10 md:gap-20 items-center justify-center px-8 lg:px-20 mb-11 bg-[#12458015] pb-20">
+    <section className="flex flex-col-reverse lg:flex-row 2xl:flex-row pt-12 md:pt-28 gap-10 md:gap-20 items-center justify-center px-8 lg:px-20 mb-11 bg-[#12458015] pb-20">
       
 
-      <div className="flex flex-col justify-center w-full 2xl:w-1/2 2xl:ml-28">
+      <div className="flex flex-col justify-center w-full lg:w-1/2 2xl:ml-28">
         <div className="max-w-full">
           <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
             Your Big Idea Deserves a Bigger Proposal—We Make It Happen!
@@ -27,10 +27,10 @@ const FirstSection = () => {
       </div>
       
  
-      <div className="flex justify-center items-center w-full 2xl:w-1/2">
-        <div className="w-[600px] h-[600px] 2xl:h-[800px]"> 
+      <div className="flex justify-center items-center w-full lg:w-1/3">
+        <div className="w-[600px] h-[600px] 2xl:h-[600px]"> 
           <Image
-            src="/Mask group-2.png"
+            src="/about1.png"
             alt="Sample Image"
             width={600}
             height={800}

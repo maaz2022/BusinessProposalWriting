@@ -59,11 +59,11 @@ const Navbar = () => {
           <div className="hidden sm:flex relative flex-col group overflow-hidden">
             <div className="flex items-center space-x-2 z-10 transition-all duration-300 group-hover:-translate-y-8 group-hover:opacity-0">
               <BsWhatsapp size={24} />
-              <Link href="https://wa.me/12067467149" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">+1 206-746-7149</Link>
+              <Link href="https://wa.me/12067467149" target='_blank' rel='nofollow' className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">+1 206-746-7149</Link>
             </div>
             <div className="flex items-center space-x-2 absolute top-0 transition-all duration-300 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 group-hover:text-[#124680]">
               <BsWhatsapp size={24} />
-              <Link href="https://wa.me/12067467149" className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">+1 206-746-7149</Link>
+              <Link href="https://wa.me/12067467149" target='_blank' rel='nofollow' className="text-sm md:text-base lg:text-lg font-medium hover:text-[#124680]">+1 206-746-7149</Link>
             </div>
           </div>
         )}
@@ -102,16 +102,16 @@ const Navbar = () => {
           {/* WhatsApp Contact in Sidebar */}
           <div className="flex items-center space-x-2 bg-[#124680] py-3 text-white px-4 rounded-xl hover:bg-[#126180]">
             <BsWhatsapp size={24} />
-            <Link href="https://wa.me/12067467149" className="text-sm font-medium">+12067467149</Link>
+            <Link href="https://wa.me/12067467149" target='_blank' rel='nofollow' className="text-sm font-medium">+12067467149</Link>
           </div>
         </div>
       </div>
 
-      {/* Overlay when Sidebar is Open */}
+   
       {isSidebarOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40"
-          onClick={() => setIsSidebarOpen(false)} // Close sidebar when overlay is clicked
+          onClick={() => setIsSidebarOpen(false)} 
         ></div>
       )}
     </section>

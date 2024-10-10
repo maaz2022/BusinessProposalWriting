@@ -28,16 +28,16 @@ const Footer = () => {
               Business Proposal Writer transforms your rough ideas into compelling proposals, empowering you to score deals and win the stakeholders with our expert writing services. 
             </p>
             <div className="flex mt-4 space-x-4">
-              <a href="https://www.instagram.com/businessproposal_writers" className="text-white">
+              <a rel='nofollow' target='_blank' href="https://www.instagram.com/businessproposal_writers" className="text-white">
                 <Instagram size={30} />
               </a>
-              <a href="https://www.facebook.com/businesspr0posalwriters" className="text-white">
+              <a rel='nofollow' target='_blank' href="https://www.facebook.com/businesspr0posalwriters" className="text-white">
                 <Facebook size={30} />
               </a>
-              <a href="https://x.com/BusProWriters" className="text-white">
+              <a target='_blank' href="https://x.com/BusProWriters" className="text-white">
                 <X size={30} />
               </a>
-              <a href="https://www.linkedin.com/company/businessproposalwriters" className="text-white">
+              <a rel='nofollow' target='_blank' href="https://www.linkedin.com/company/businessproposalwriters" className="text-white">
                 <Linkedin size={30} />
               </a>
             </div>
@@ -74,7 +74,7 @@ const Footer = () => {
               <p className="flex items-center">
                 <Mail className="mr-2" /> <a href="mailto:info@businessproposalwriter.com">info@businessproposalwriter.com</a>
               </p>
-              <p className='flex items-center'><Phone className='mr-2'/><a href="https://wa.me/12067467149">+1 206-746-7149</a></p>
+              <p className='flex items-center'><Phone className='mr-2'/><a rel='nofollow' href="https://wa.me/12067467149" target='_blank'>+1 206-746-7149</a></p>
               
             </div>
           </div>

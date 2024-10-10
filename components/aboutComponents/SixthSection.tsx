@@ -19,7 +19,7 @@ const SixthSection = () => {
         </div>
         <div className='hidden sm:block'>
             <Image
-                src='/elegant-businessman-with-document_1.png'
+                src='/about.png'
                 alt='image'
                 width={250}
                 height={200}

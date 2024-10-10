@@ -24,10 +24,10 @@ const ThirdSection = () => {
             <div className="w-full lg:w-1/3 flex justify-center items-center mb-8 md:mb-0">
         <div className="h-auto w-full max-w-[400px]">
           <Image
-            src="/AGroup 3.png"
+            src="/about2.png"
             alt="Sample Image"
             layout="responsive"
-            width={600}
+            width={700}
             height={100}
             className="object-cover w-full h-full"
           />

@@ -3,13 +3,13 @@ import React from 'react';
 
 const FourthSection = () => {
   return (
-    <section className="flex flex-col md:flex-col 2xl:flex-row mt-12 md:mt-28 gap-10 md:gap-10 items-center justify-center px-4 mb-8">
+    <section className="flex flex-col md:flex-row 2xl:flex-row mt-12 md:mt-28 gap-10 md:gap-2 items-center justify-center px-4 mb-8">
   
-      <div className="flex justify-center items-center w-full 2xl:w-1/2">
+      <div className="flex justify-center items-center w-full 2xl:w-1/3">
         <Image
-          src="/Mask group-2.png"
+          src="/about3.png"
           alt="Sample Image"
-          width={600}
+          width={400}
           height={200}
           className=" h-auto"
         />
@@ -22,7 +22,7 @@ const FourthSection = () => {
             Your Mission Is Our Mission!
           </h1>
                  <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
-                At <b>Business Proposal Writer</b>, we’re not just about putting words on the paper—we build door-opening opportunities. Think of us as the ultimate sidekick, ensuring your proposal packs a punch no matter what! Whether you&aposre about to seal that make-or-break deal, charm the socks off investors, or kick-start your next big project, we’re laser-focused on helping you crush it. Your dreams? We&aposre chasing them right with you. We’re all in, crafting proposals that do more than talk—they shout, “Let’s make this happen!” 
+                At <b>Business Proposal Writer</b>, we’re not just about putting words on the paper—we build door-opening opportunities. Think of us as the ultimate sidekick, ensuring your proposal packs a punch no matter what! Whether you&apos;re about to seal that make-or-break deal, charm the socks off investors, or kick-start your next big project, we’re laser-focused on helping you crush it. Your dreams? We&aposre chasing them right with you. We’re all in, crafting proposals that do more than talk—they shout, “Let’s make this happen!” 
                 </p>
                  <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
                 So, ready to turn heads and take names? We’ll make your next big move the smoothest one yet!

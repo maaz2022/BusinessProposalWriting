@@ -60,7 +60,7 @@ const FifthSection = () => {
             </li>
           </ul> 
            <p className="text-[16px] md:text-[20px]">  
-              So, why settle for less when you can work with the best? We&aposre not just here to write—we’re about nailing it with style, precision, and results that make jaws drop!
+              So, why settle for less when you can work with the best? We&apos;re not just here to write—we’re about nailing it with style, precision, and results that make jaws drop!
           </p>
         </div>
       </div>
