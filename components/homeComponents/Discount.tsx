@@ -28,7 +28,7 @@ const Discount = () => {
           />
           
           <button
-            className="px-6 py-3 bg-[#083554] text-white rounded-lg hover:bg-[#083654c4] duration-300 flex items-center justify-center w-full md:w-auto"
+            className="px-6 py-3 bg-[#083554] text-white rounded-lg  hover:bg-blue-400 duration-300 flex items-center justify-center w-full md:w-auto"
           >
             Submit <ThumbsUp className="ml-2" />
           </button>

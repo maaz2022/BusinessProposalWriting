@@ -16,7 +16,7 @@ const Hero = () => {
           Land the Deal of Your Dreams with Killer Business Proposal Writers!
         </h1>
 
-        <p className="text-black text-base md:text-lg max-w-full md:max-w-xl lg:text-[18px] xl:text-[20px]">
+        <p className="text-black text-base md:text-lg max-w-full md:max-w-xl sm:text-[14px] lg:text-[16px]">
           Pitch with Confidence, Prove with Value, and Close the Deal with Tailor-Made Business Proposal Writing Services That Open Doors to Lasting Success and Unmatched Results!
         </p>
 

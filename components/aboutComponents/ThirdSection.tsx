@@ -12,7 +12,7 @@ const ThirdSection = () => {
             Proposals So Good, They Might Just Get a Standing Ovation – Let’s Write Yours!
           </h1>
           
-          <p className="text-white mt-4 text-[16px] sm:text-[18px] md:text-[15px] lg:text-[15px] xl:text-[20px]">
+          <p className="text-white mt-4 text-[14px] lg:text-[16px]  ">
             Why Wait for Tomorrow? Light the Fire of Creativity and Innovation – Together, We’ll Design a Unique Narrative that Cuts Through the Clutter and Inspires Action!
           </p>
           

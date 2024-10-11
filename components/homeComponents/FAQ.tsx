@@ -30,60 +30,62 @@ const FAQ = () => {
     setOpenIndexCol2(openIndexCol2 === index ? null : index);
   };
 
-  return (
-    <div className="flex justify-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20 p-4 w-full max-w-6xl my-10">
-        
-        <div className='space-y-5'>
-          {faqsColumn1.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-white border-2 border-black rounded-lg shadow-md cursor-pointer hover:bg-gray-100 transition duration-300 p-4"
-              onClick={() => toggleFAQCol1(index)}
-            >
-              <div className="flex justify-between items-center">
-                <span className="font-bold text-[20px]">{faq.question}</span>
-                <span className="text-4xl font-extrabold">{openIndexCol1 === index ? '-' : '+'}</span>
-              </div>
-              <div
-                className={`overflow-hidden transition-all duration-1000 ease-in-out ${openIndexCol1 === index ? 'max-h-screen' : 'max-h-0'}`}
-              >
-                {openIndexCol1 === index && (
-                  <div className="p-4 border-t text-gray-700 text-[20px]">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
+return (
+  <div className="flex flex-col items-center">
+    <h1 className="text-4xl font-bold mt-16 text-center">Frequently Asked <span className='text-[#083554]'>Questions</span></h1>
+       <div className='w-20  rounded-xl my-4 border-b-8 border-[#083554]'></div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-20 p-4 w-full max-w-6xl my-10">
+      <div className='space-y-5'>
+        {faqsColumn1.map((faq, index) => (
+          <div
+            key={index}
+            className="bg-white border-2 border-black rounded-lg shadow-md cursor-pointer hover:bg-gray-100 transition duration-300 p-4"
+            onClick={() => toggleFAQCol1(index)}
+          >
+            <div className="flex justify-between items-center">
+              <span className="font-bold text-[20px]">{faq.question}</span>
+              <span className="text-4xl font-extrabold">{openIndexCol1 === index ? '-' : '+'}</span>
             </div>
-          ))}
-        </div>
+            <div
+              className={`overflow-hidden transition-all duration-1000 ease-in-out ${openIndexCol1 === index ? 'max-h-screen' : 'max-h-0'}`}
+            >
+              {openIndexCol1 === index && (
+                <div className="p-4 border-t text-gray-700 text-[14px] lg:text-[16px]">
+                  {faq.answer}
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
 
-        <div className='space-y-5'>
-          {faqsColumn2.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-white border-2 border-black rounded-lg shadow-md cursor-pointer hover:bg-gray-100 transition duration-300 p-4"
-              onClick={() => toggleFAQCol2(index)}
-            >
-              <div className="flex justify-between items-center">
-                <span className="font-bold text-[20px]">{faq.question}</span>
-                <span className="text-4xl font-extrabold">{openIndexCol2 === index ? '-' : '+'}</span>
-              </div>
-              <div
-                className={`overflow-hidden transition-all duration-1000 ease-in-out ${openIndexCol2 === index ? 'max-h-screen' : 'max-h-0'}`}
-              >
-                {openIndexCol2 === index && (
-                  <div className="p-4 border-t text-gray-700 text-[20px]">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
+      <div className='space-y-5'>
+        {faqsColumn2.map((faq, index) => (
+          <div
+            key={index}
+            className="bg-white border-2 border-black rounded-lg shadow-md cursor-pointer hover:bg-gray-100 transition duration-300 p-4"
+            onClick={() => toggleFAQCol2(index)}
+          >
+            <div className="flex justify-between items-center">
+              <span className="font-bold text-[20px]">{faq.question}</span>
+              <span className="text-4xl font-extrabold">{openIndexCol2 === index ? '-' : '+'}</span>
             </div>
-          ))}
-        </div>
+            <div
+              className={`overflow-hidden transition-all duration-1000 ease-in-out ${openIndexCol2 === index ? 'max-h-screen' : 'max-h-0'}`}
+            >
+              {openIndexCol2 === index && (
+                <div className="p-4 border-t text-gray-700 text-[14px] lg:text-[16px]">
+                  {faq.answer}
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
-  );
+  </div>
+);
+
 };
 
 export default FAQ;

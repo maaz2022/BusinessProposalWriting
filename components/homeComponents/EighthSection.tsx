@@ -40,7 +40,7 @@ const EighthSection = () => {
             Voices of Victory: Discover the Impact We’ve Created!
           </h1>
           <div className='w-20 mt-2 mb-4 border-b-4 border-white'></div>
-          <p className="text-white mt-4 text-[16px] md:text-[20px] max-w-2xl">
+          <p className="text-white mt-4 text-[16px] lg:text-[16px] max-w-2xl">
             Join the Ranks of Ambitious Entrepreneurs Who Have Turned Their Visions into Reality, Fueled by Our Relentless Pursuit of Excellence and Dedicated Support Throughout the Process!
           </p>
           <button className="px-6 py-2 bg-[#124680] text-white rounded flex items-center gap-3 text-[18px] md:text-[20px] justify-center hover:bg-blue-400 duration-300">

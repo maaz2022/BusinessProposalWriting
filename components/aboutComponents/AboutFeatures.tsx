@@ -43,7 +43,7 @@ const AboutFeatures = () => {
                     <h1 className="text-3xl md:text-5xl font-bold max-w-4xl text-[#083554]">
                         From Start-Up Dreams to Transformative Realities – Your Breakthrough Awaits!
                     </h1>
-                    <p className="font-light text-2xl md:text-2xl text-black pt-5 max-w-7xl">
+                    <p className="font-light text-[14px] lg:text-[16px] text-black pt-5 max-w-7xl">
                         From Napkin Sketches to CEO Status, We’re Here to Help You Plot World Domination – Because Ambitious Dreams Deserve Even Greater Action Plans!
                     </p>
                   
@@ -58,14 +58,14 @@ const AboutFeatures = () => {
                         >
                     
                         <div className="xl:flex items-center">
-                            <div className='text-[#083554] mr-4 pb-3'> {/* Icon with margin to the right */}
+                            <div className='text-[#083554] mr-4 pb-3'> 
                             {feature.icon}
                             </div>
                             <div> 
                             <h3 className='font-bold text-xl text-[#083554] mb-2 text-start'>
                                 {feature.title}
                             </h3>
-                            <p className='text-black text-start'>
+                            <p className='text-black text-start text-[14px] lg:text-[16px]'>
                                 {feature.description}
                             </p>
                             </div>

@@ -26,7 +26,7 @@ const FifthSection = () => {
             Get the Green Light with Proposals That Turn Your Business Vision into a Signed Contract!
           </h1>
           
-          <p className="text-[#083554] mt-4 text-[16px] sm:text-[18px] md:text-[20px]">
+          <p className="text-[#083554] mt-4 text-[14px] sm:text-[14px] lg:text-[16px]">
             From Scribbles to Signatures; Proposals Crafted So Perfectly, They&apos;ll Think You’ve Read Their Minds. Because When Your Business Ideas Are Wrapped in Perfection, &aposYes&apos is The Only Answer You’ll Get—Guaranteed to Make Even the Toughest Client Smile!
           </p>
           
