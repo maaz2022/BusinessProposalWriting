@@ -5,7 +5,7 @@ const ThirdSection = () => {
   return (
     <section className="flex flex-col md:flex-col 2xl:flex-row lg:flex-row  mt-12 md:mt-28 gap-5 md:gap-5 items-center justify-center px-4">
 
-      <div className="flex justify-center items-center w-full lg:w-1/2 2xl:ml-36  md:max-w-[500px]">
+      <div className="flex justify-center items-center w-full lg:w-1/2 2xl:ml-36  md:max-w-[500px] lg:ml-10">
         <Image
           src="/Group_48 (1).png" 
           alt="Sample Image"
@@ -18,9 +18,9 @@ const ThirdSection = () => {
   
       <div className="flex flex-col justify-center w-full 2xl:w-1/2 2xl:mr-40 lg:px-10 md:px-10"> 
         <div className="max-w-full md:max-w-7xl lg:max-w-6xl">
-          <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
+          <h2 className="text-[28px] sm:text-[32px] md:text-[36px] font-bold text-[#083554] leading-tight">
             We Write, You Win —Expert Business Proposal Services That Turn Heads!
-          </h1>
+          </h2>
           <p className="text-[#383737] mt-4 text-[14px]  lg:text-[16px] leading-relaxed">
             You know that sinking feeling when you’re staring at a blank screen, and that oh-so-important business proposal just isn&apos;t writing itself? Yeah, we’ve all been there too. But, unlike you, we don’t sweat it, folks. Why? Because writing business proposals is our bread and butter. Here’s the deal: Where most people get caught in a web of “what ifs” and “how do I even start,” we’re already halfway through an excellent intro with data-backed insights.       
           </p>

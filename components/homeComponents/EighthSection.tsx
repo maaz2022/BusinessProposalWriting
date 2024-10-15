@@ -36,9 +36,9 @@ const EighthSection = () => {
     
       <div className="flex flex-col justify-center w-full 2xl:w-1/3 p-5 md:p-12"> 
         <div className="max-w-3xl space-y-8">
-          <h1 className="text-[28px] md:text-[36px] font-bold text-white leading-tight">
+          <span className="text-[28px] md:text-[36px] font-bold text-white leading-tight">
             Voices of Victory: Discover the Impact We’ve Created!
-          </h1>
+          </span>
           <div className='w-20 mt-2 mb-4 border-b-4 border-white'></div>
           <p className="text-white mt-4 text-[16px] lg:text-[16px] max-w-2xl">
             Join the Ranks of Ambitious Entrepreneurs Who Have Turned Their Visions into Reality, Fueled by Our Relentless Pursuit of Excellence and Dedicated Support Throughout the Process!
@@ -62,8 +62,8 @@ const EighthSection = () => {
                 height={100}
                 className='rounded-full object-cover mb-4'
               />
-              <h1 className='font-semibold text-[#083554]'>{person.name}</h1>
-              <h2 className="text-[#124680] text-center">{person.profession}</h2>
+              <span className='font-semibold text-[#083554] '>{person.name}</span>
+              <span className="text-[#124680] text-center">{person.profession}</span>
               <p className="text-center text-gray-700 mt-2 text-[14px] md:text-[16px]">
                 {person.description}
               </p>

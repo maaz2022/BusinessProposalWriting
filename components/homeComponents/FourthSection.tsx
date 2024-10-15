@@ -8,9 +8,9 @@ const FourthSection = () => {
    
       <div className="flex flex-col justify-center w-full p-8 md:p-28 lg:p-10 lg:w-1/2"> 
         <div className="max-w-full md:max-w-4xl lg:max-w-5xl 2xl:ml-20">
-          <h1 className="xl:text-[28px] lg:text-[20px] sm:text-[32px] md:text-[32px] font-bold text-white leading-tight lg:mt-5">
+          <span className="xl:text-[28px] lg:text-[20px] sm:text-[32px] md:text-[32px] font-bold text-white leading-tight lg:mt-5">
             Design, Execute, Succeed – It All Starts Here!
-          </h1>
+          </span>
           <div className='w-20 mt-2 mb-4 border-b-4 border-white'></div>
           <p className="text-white mt-4 text-[14px] sm:text-[14px] lg:text-[16px] ">
             Ever feel like writing a business proposal is like navigating a maze of spreadsheets, projections, and endless jargon? We feel you&mdash;growing a business is hard enough without having to worry about the fine print. That&apos;s where we&apos;re here! Whether it&apos;s a financial, investor, or marketing plan, we&apos;ve crafted bespoke strategies for some of the top businesses in the USA&mdash;and guess what? They&apos;ve been knocking it out of the park ever since. So why not let us handle the tricky stuff while you focus on steering your business forward? We&apos;re pros at turning ideas into action plans that scream &quot;SUCCESS!&quot;

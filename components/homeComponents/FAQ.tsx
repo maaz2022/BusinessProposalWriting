@@ -32,7 +32,7 @@ const FAQ = () => {
 
 return (
   <div className="flex flex-col items-center">
-    <h1 className="text-4xl font-bold mt-16 text-center">Frequently Asked <span className='text-[#083554]'>Questions</span></h1>
+    <h2 className="text-4xl font-bold mt-16 text-center">Frequently Asked <span className='text-[#083554]'>Questions</span></h2>
        <div className='w-20  rounded-xl my-4 border-b-8 border-[#083554]'></div>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-20 p-4 w-full max-w-6xl my-10">
       <div className='space-y-5'>
@@ -67,7 +67,7 @@ return (
             onClick={() => toggleFAQCol2(index)}
           >
             <div className="flex justify-between items-center">
-              <span className="font-bold text-[20px]">{faq.question}</span>
+              <h3 className="font-bold text-[20px]">{faq.question}</h3>
               <span className="text-4xl font-extrabold">{openIndexCol2 === index ? '-' : '+'}</span>
             </div>
             <div

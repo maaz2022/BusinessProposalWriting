@@ -42,7 +42,7 @@ const ContactForm = () => {
   return (
     <div className="flex flex-wrap lg:flex-nowrap justify-between items-start p-6 2xl:p-12 ">
       <form 
-        className="w-full lg:max-w-2xl bg-white p-8 rounded-xl 2xl:ml-52 border-2 border-[#083554] "
+        className="w-full lg:max-w-2xl bg-white p-8 rounded-xl 2xl:ml-52 border-2 border-[#083554] mt-24"
         onSubmit={handleSubmit}
       >
         <h2 className="text-3xl font-bold mb-4 text-start text-[#083554]">Get in touch</h2>
@@ -151,7 +151,7 @@ const ContactForm = () => {
 
     
       <div className="w-full 2xl:w-1/2 2xl:h-[650px] mt-8 lg:mt-0 lg:ml-8 flex-grow lg:max-w-3xl 2xl:mr-28">
-        <div className="hidden lg:block ">
+        <div className="hidden lg:block mt-24">
           <Image 
             src='/Mask.png'
             alt='contact'

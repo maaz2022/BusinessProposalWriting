@@ -7,9 +7,9 @@ const SixthSection = () => {
     <section className='relative flex justify-between items-center bg-gradient-to-t from-[#083554] to-cyan-600 rounded-3xl  lg:max-w-6xl md:max-w-6xl  h-[250px] my-6 xl:mx-auto p-11 mt-28 lg:mx-5 md:mx-5 mx-5'>
 
         <div className='text-white'>
-            <h1 className='md:text-2xl font-bold'>
+            <span className='md:text-2xl font-bold'>
                 Let’s Cook Up Proposals That Make You the Talk of the Town!
-            </h1>
+            </span>
             <p className='lg:text-[20px] md:text-[18px] text-[15px]  max-w-[350px] lg:max-w-2xl py-4'>
                 Your Ambitions Deserve a Pitch That Speaks Volume – Go Beyond Ordinary and Captivate with Masterpieces That Ignite Passion and Close Deals!
             </p>

@@ -7,10 +7,10 @@ const SeventhSection = () => {
  
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:mx-[100px]">
         <div className="w-full md:w-full max-w-[430px] space-y-5">
-          <h2 className='text-xl md:text-2xl font-bold'>Go from Blank Page to Bold Pitch!</h2>
-          <h1 className="text-2xl md:text-[25px] font-bold text-[#083554] mb-4">
+          <h3 className='text-xl md:text-2xl font-bold'>Go from Blank Page to Bold Pitch!</h3>
+          <h2 className="text-2xl md:text-[25px] font-bold text-[#083554] mb-4">
             Let’s Get Real – Writing Proposals Is Hard, But Not With Us Around!
-          </h1>
+          </h2>
           <div className='w-20 md:w-32 font-semibold mb-4 border-b-4 border-[#083554]'></div>
         </div>
 

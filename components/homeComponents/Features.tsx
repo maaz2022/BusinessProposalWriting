@@ -40,9 +40,9 @@ const Features = () => {
             <section className='bg-blue-200 py-16 px-4 md:px-20 mt-10'>
              
                 <div className="flex flex-col items-center space-y-5 text-center">
-                    <h1 className="font-light text-2xl md:text-3xl text-black pt-10">
+                    <h3 className="font-light text-2xl md:text-3xl text-black pt-10">
                         Why Trust Us with Your Business Proposal?
-                    </h1>
+                    </h3>
                     <h2 className="text-3xl md:text-5xl font-bold max-w-2xl text-[#083554]">
                         See for Yourself!
                     </h2>
@@ -59,9 +59,9 @@ const Features = () => {
                             <div className='text-[#083554] mb-4'>
                                 {feature.icon}
                             </div>
-                            <h3 className='font-bold text-xl text-[#083554] mb-2'>
+                            <span className='font-bold text-xl text-[#083554] mb-2'>
                                 {feature.title}
-                            </h3>
+                            </span>
                             <p className='text-black text-center'>
                                 {feature.description}
                             </p>

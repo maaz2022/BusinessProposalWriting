@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 
 const CounterSection = () => {
 
-  const [counters, setCounters] = useState([1, 1, 1, 1]);
-  const targetValues = [600, 750, 1000, 98]; 
+  const [counters, setCounters] = useState([300, 500, 800, 1]);
+  const targetValues = [500, 750, 1000, 98]; 
   const titles = ["Expert Writers", "Happy Clients", "Proposals Delivered", "Success Rate"]; 
 
   useEffect(() => {

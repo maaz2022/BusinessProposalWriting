@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="absolute right-0 bottom-10 w-[600px] h-[700px] md:w-[750px] md:h-[900px] blur-[90px] rounded-full bg-[#124680] opacity-40 z-0"></div>
 
 
-      <div className="w-full lg:w-1/2 flex flex-col justify-center items-start pl-6 md:pl-20 lg:pl-6 xl:pl-20 2xl:pl-60 space-y-6 md:space-y-8 relative z-10">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-start pl-6 md:pl-20 lg:pl-6 xl:pl-20 2xl:pl-60 space-y-6 md:space-y-8 relative z-10 pt-32">
         <h1 className="text-black text-4xl md:text-4xl lg:text-[35px] 2xl:text-5xl xl:text-4xl font-bold relative">
           Land the Deal of Your Dreams with Killer Business Proposal Writers!
         </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
    
-      <div className="w-full lg:w-1/2 flex justify-center items-center pr-0 lg:pl-32 2xl:pr-32 pb-10 relative z-10">
+      <div className="w-full lg:w-1/2 flex justify-center items-center pr-0 lg:pl-32 2xl:pr-32 pb-10 relative z-10 pt-24">
         <Image src="/Group 45.png" alt="business image" width={500} height={300} className="w-full max-w-xs md:max-w-md  2xl  :h-[540px] lg:w-[300px] 2xl:w-full" />
       </div>
     </section>
