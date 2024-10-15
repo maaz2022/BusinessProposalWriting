@@ -21,6 +21,7 @@ const Footer = () => {
                   alt='logo'
                   width={300}
                   height={100}
+                  title='Business proposal writers'
                 />
               </Link>
             </h2>

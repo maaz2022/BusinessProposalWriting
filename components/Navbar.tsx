@@ -46,6 +46,7 @@ const Navbar = () => {
               width={200}
               height={100}
               className="object-contain"
+              title='Business proposal writers'
             />
           </Link>
         </div>
@@ -99,6 +100,7 @@ const Navbar = () => {
                 height={100}
                 className="object-contain"
                 onClick={() => setIsSidebarOpen(false)}
+                title='Business proposal writers'
               />
             </Link>
           </div>
