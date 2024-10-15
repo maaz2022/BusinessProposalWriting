@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex-shrink-0">
           <Link href='/'>
             <Image
-              src="/All_Service_Brand_Logos-10 (1).png"
+              src="/logo.png"
               alt="logo"
               width={200}
               height={100}
@@ -93,7 +93,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href='/'>
               <Image
-                src="/All_Service_Brand_Logos-10 (1).png"
+                src="/logo.png"
                 alt="logo"
                 width={150}
                 height={100}

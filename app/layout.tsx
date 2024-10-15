@@ -26,7 +26,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.businessproposalwriters.com",
+      "https://businessproposalwriters.com",
   },
 } 
 

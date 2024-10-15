@@ -22,7 +22,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.businessproposalwriters.com/contact",
+      "https://businessproposalwriters.com/contact",
   },
 } 
 const page = () => {

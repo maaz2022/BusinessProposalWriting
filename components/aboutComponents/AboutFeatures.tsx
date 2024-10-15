@@ -40,9 +40,9 @@ const AboutFeatures = () => {
             <section className=' py-16 px-4 md:px-20 mt-10'>
           
                 <div className="flex flex-col items-center space-y-5 text-center">
-                    <h2 className="text-3xl md:text-5xl font-bold max-w-4xl text-[#083554]">
+                    <span className="text-3xl md:text-5xl font-bold max-w-4xl text-[#083554]">
                         From Start-Up Dreams to Transformative Realities – Your Breakthrough Awaits!
-                    </h2>
+                    </span>
                     <p className="font-light text-[14px] lg:text-[16px] text-black pt-5 max-w-7xl">
                         From Napkin Sketches to CEO Status, We’re Here to Help You Plot World Domination – Because Ambitious Dreams Deserve Even Greater Action Plans!
                     </p>
