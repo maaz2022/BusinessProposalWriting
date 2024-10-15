@@ -102,7 +102,6 @@ const Navbar = () => {
               />
             </Link>
           </div>
-
           <Link href="/about" onClick={() => setIsSidebarOpen(false)} className="text-md font-medium hover:text-[#124680]">About Us</Link>
           <Link href="/" onClick={() => setIsSidebarOpen(false)} className="text-md font-medium hover:text-[#124680]">Services</Link>
           <Link href="/" onClick={() => setIsSidebarOpen(false)} className="text-md font-medium hover:text-[#124680]">Testimonials</Link>
