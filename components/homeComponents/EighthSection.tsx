@@ -11,18 +11,18 @@ const persons = [
     title: 'Isabella Grant'
     },
   {
-    name: 'Nathaniel Carter',
+    name: 'Chloe',
     profession: 'MBA Candidate',
     description: "These guys exceeded my expectations with their exceptional business proposal writing services! The professional writers here were attentive to my needs, and the final proposal was simply outstanding. Their team is not only engaging and effective but also dedicated to delivering high-quality work.",
     image: '/Ellipse 13.png',
-    title: 'Nathaniel Carter'
+    title: 'Chloe'
   },
   {
-    name: 'Chloe',
+    name: 'Nathaniel Carter',
     profession: 'Business Administration Student',
     description: "Their unique approach to business proposals set me apart from the competition and helped me land the internship of my dreams. I highly recommend this business proposal writing agency to anyone looking for authentic online help!",
     image: '/Ellipse 14.png',
-    title: 'Chloe'
+    title: 'Nathaniel Carter'
   },
 ];
 

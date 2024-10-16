@@ -6,12 +6,12 @@ const nunito = Nunito({ subsets: ["latin"], weight:["300","400","500","600","800
 
 
 export const metadata = {
-  title:"Professional business proposal writers delivering tailored, persuasive proposals to help you grow your business and win clients. Get started today!",
-  description: "Invest in a proposal writer who can put your ideas into action by business proposal writing services. Ensure your proposals are on top and survive a recession with resilience.",
+  title:"Persuasion for Business Proposal Writers: Win Clients",
+  description: "Professional business proposal writers delivering tailored, persuasive proposals to help you grow your business and win clients. Get started today!",
   openGraph: {
-    title: "Professional business proposal writers delivering tailored, persuasive proposals to help you grow your business and win clients. Get started today!",
+    title: "Persuasion for Business Proposal Writers: Win Clients",
     description:
-      " Invest in a proposal writer who can put your ideas into action by business proposal writing services. Ensure your proposals are on top and survive a recession with resilience.",
+      "Professional business proposal writers delivering tailored, persuasive proposals to help you grow your business and win clients. Get started today!",
     images: [
       {
         url: "https://businessproposalwriters.com/about3.png",
