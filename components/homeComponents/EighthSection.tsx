@@ -1,6 +1,5 @@
 import { SquareArrowOutUpRight } from 'lucide-react';
 import Image from 'next/image';
-import { title } from 'process';
 import React from 'react';
 
 const persons = [
