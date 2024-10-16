@@ -55,6 +55,7 @@ const FourthSection = () => {
             width={400}
             height={100}
             className="object-contain w-full h-full"
+            title='expert writing'
           />
         </div>
       </div>

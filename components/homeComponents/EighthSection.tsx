@@ -1,5 +1,6 @@
 import { SquareArrowOutUpRight } from 'lucide-react';
 import Image from 'next/image';
+import { title } from 'process';
 import React from 'react';
 
 const persons = [
@@ -8,18 +9,21 @@ const persons = [
     profession: 'Marketing Graduate',
     description: "Working with BusinessProposalWriter was nothing short of amazing! Their experienced writers took my ideas and turned them into a fantastic business proposal that really stood out.   ",
     image: '/Ellipse 12.png',
-  },
+    title: 'Isabella Grant'
+    },
   {
     name: 'Nathaniel Carter',
     profession: 'MBA Candidate',
     description: "These guys exceeded my expectations with their exceptional business proposal writing services! The professional writers here were attentive to my needs, and the final proposal was simply outstanding. Their team is not only engaging and effective but also dedicated to delivering high-quality work.",
-    image: '/Ellipse 14.png',
+    image: '/Ellipse 13.png',
+    title: 'Nathaniel Carter'
   },
   {
     name: 'Chloe',
     profession: 'Business Administration Student',
     description: "Their unique approach to business proposals set me apart from the competition and helped me land the internship of my dreams. I highly recommend this business proposal writing agency to anyone looking for authentic online help!",
-    image: '/Ellipse 13.png',
+    image: '/Ellipse 14.png',
+    title: 'Chloe'
   },
 ];
 
@@ -60,6 +64,7 @@ const EighthSection = () => {
                 alt='image'
                 width={100}
                 height={100}
+                title={person.title}
                 className='rounded-full object-cover mb-4'
               />
               <span className='font-semibold text-[#083554] '>{person.name}</span>

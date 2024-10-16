@@ -12,6 +12,7 @@ const ThirdSection = () => {
           width={900}
           height={400}
           className=" h-auto"
+          title='writing team'
         />
       </div>
 

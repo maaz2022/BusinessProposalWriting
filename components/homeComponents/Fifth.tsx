@@ -15,6 +15,7 @@ const FifthSection = () => {
             width={200}
             height={100}
             className="object-cover w-full h-full"
+            title='business proposal'
           />
         </div>
       </div>

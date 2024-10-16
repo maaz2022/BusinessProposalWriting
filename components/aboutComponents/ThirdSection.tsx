@@ -30,6 +30,7 @@ const ThirdSection = () => {
             width={700}
             height={100}
             className="object-cover w-full h-full"
+            title='writing'
           />
         </div>
       </div>

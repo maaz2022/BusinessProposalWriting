@@ -35,6 +35,7 @@ const FirstSection = () => {
             width={600}
             height={800}
             className="h-full w-auto object-cover" 
+            title='expert'
           />
         </div>
       </div>

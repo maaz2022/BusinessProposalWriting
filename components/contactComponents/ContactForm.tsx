@@ -157,6 +157,7 @@ const ContactForm = () => {
             alt='contact'
             width={600}
             height={600}
+            title='our team'
           />
         </div>
    

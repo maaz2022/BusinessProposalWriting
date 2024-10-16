@@ -12,6 +12,7 @@ const FourthSection = () => {
           width={300}
           height={200}
           className=" h-auto"
+          title='proposal writing'
         />
       </div>
 

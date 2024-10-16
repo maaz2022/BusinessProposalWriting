@@ -24,6 +24,7 @@ const SixthSection = () => {
                 width={250}
                 height={200}
                 className='absolute bottom-0 right-0'
+                title='writing expert'
             />
         </div>
     </section>
