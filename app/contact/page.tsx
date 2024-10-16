@@ -10,7 +10,7 @@ export const metadata = {
       "Need a winning business proposal? Reach out to our business proposal writers for tailored proposals to meet your business needs. Contact us now!",
     images: [
       {
-        url: "",
+        url: "https://businessproposalwriters.com/about3.png",
         width: 1300,
         height: 628,
         type: "image/jpeg",

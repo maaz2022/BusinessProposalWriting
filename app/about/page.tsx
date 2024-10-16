@@ -16,7 +16,7 @@ export const metadata = {
       "Meet our skilled team of business proposal writers. Our professionals create personalized, compelling proposals that help you win clients. Reach out now!",
     images: [
       {
-        url: "",
+        url: "https://businessproposalwriters.com/about3.png",
         width: 1300,
         height: 628,
         type: "image/jpeg",

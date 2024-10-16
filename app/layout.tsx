@@ -14,7 +14,7 @@ export const metadata = {
       " Invest in a proposal writer who can put your ideas into action by business proposal writing services. Ensure your proposals are on top and survive a recession with resilience.",
     images: [
       {
-        url: "",
+        url: "https://businessproposalwriters.com/about3.png",
         width: 1300,
         height: 628,
         type: "image/jpeg",
