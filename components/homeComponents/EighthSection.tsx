@@ -31,7 +31,7 @@ const EighthSection = () => {
     <section className="relative flex flex-col 2xl:flex-row mt-28 gap-10 lg:gap-20 items-center justify-center bg-[#083554] h-auto p-5 md:p-20">
       <Image
         src='/Group 44.png'
-        alt='image'
+        alt='commas'
         height={400}
         width={100}
         className='absolute -top-10 left-1/2 transform -translate-x-1/2 md:left-44 '
@@ -60,7 +60,7 @@ const EighthSection = () => {
             <div key={index} className='w-full sm:w-[300px] md:w-[300px] lg:w-[275px] h-[400px] md:h-[500px] bg-white flex flex-col items-center p-5 rounded-lg shadow-md'>
               <Image
                 src={person.image}
-                alt='image'
+                alt={person.title}
                 width={100}
                 height={100}
                 title={person.title}

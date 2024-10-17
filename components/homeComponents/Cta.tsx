@@ -20,7 +20,7 @@ const Cta = () => {
         <div className='hidden sm:block'>
             <Image
                 src='/elegant-businessman-with-document_1.png'
-                alt='image'
+                alt='expert writer'
                 width={250}
                 height={200}
                 className='absolute bottom-0 right-0'

@@ -31,7 +31,7 @@ const FirstSection = () => {
         <div className="w-[600px] h-[600px] 2xl:h-[600px]"> 
           <Image
             src="/about1.png"
-            alt="Sample Image"
+            alt="expert"
             width={600}
             height={800}
             className="h-full w-auto object-cover" 

@@ -50,7 +50,7 @@ const FourthSection = () => {
         <div className=" h-full lg:w-[400px] xl:w-[635px]">
           <Image
             src="/Mask group-2.png"
-            alt="Sample Image"
+            alt="expert writing"
             layout="responsive"
             width={400}
             height={100}

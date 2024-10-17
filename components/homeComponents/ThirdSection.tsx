@@ -8,7 +8,7 @@ const ThirdSection = () => {
       <div className="flex justify-center items-center w-full lg:w-1/2 2xl:ml-36  md:max-w-[500px] lg:ml-10">
         <Image
           src="/Group_48 (1).png" 
-          alt="Sample Image"
+          alt="writing team"
           width={900}
           height={400}
           className=" h-auto"

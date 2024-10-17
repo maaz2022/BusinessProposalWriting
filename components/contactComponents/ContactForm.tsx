@@ -154,7 +154,7 @@ const ContactForm = () => {
         <div className="hidden lg:block mt-24">
           <Image 
             src='/Mask.png'
-            alt='contact'
+            alt='our team'
             width={600}
             height={600}
             title='our team'

@@ -10,7 +10,7 @@ const FifthSection = () => {
         <div className="h-auto w-full max-w-[400px] 2xl:max-w-[450px]">
           <Image
             src="/Group_3.png"
-            alt="Sample Image"
+            alt="business proposal"
             layout="responsive"
             width={200}
             height={100}

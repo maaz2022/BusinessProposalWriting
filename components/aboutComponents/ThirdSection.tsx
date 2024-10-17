@@ -25,7 +25,7 @@ const ThirdSection = () => {
         <div className="h-auto w-full max-w-[400px]">
           <Image
             src="/about2.png"
-            alt="Sample Image"
+            alt="writing"
             layout="responsive"
             width={700}
             height={100}

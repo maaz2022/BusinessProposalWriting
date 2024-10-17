@@ -18,7 +18,7 @@ const Footer = () => {
               <Link href="/">
                 <Image
                   src='/footerLogo.png'
-                  alt='logo'
+                  alt='Business proposal writers'
                   width={300}
                   height={100}
                   title='Business proposal writers'

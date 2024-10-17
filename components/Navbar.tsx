@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link href='/'>
             <Image
               src="/navlogo.png"
-              alt="logo"
+              alt="Business proposal writers"
               width={200}
               height={100}
               className="object-contain"
@@ -95,7 +95,7 @@ const Navbar = () => {
             <Link href='/'>
               <Image
                 src="/navlogo.png"
-                alt="logo"
+                alt="Business proposal writers"
                 width={150}
                 height={100}
                 className="object-contain"

@@ -8,7 +8,7 @@ const FourthSection = () => {
       <div className="flex justify-center items-center w-full 2xl:w-1/3">
         <Image
           src="/about3.png"
-          alt="Sample Image"
+          alt="proposal writing"
           width={300}
           height={200}
           className=" h-auto"
