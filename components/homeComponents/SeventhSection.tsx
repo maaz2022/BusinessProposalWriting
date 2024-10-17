@@ -5,7 +5,7 @@ const SeventhSection = () => {
     <section className="bg-white py-16 px-4 xl:px-20 lg:px-0 text-[#083554]">
 
       
-<div className="flex flex-col lg:flex-row gap-10 lg:mx-[100px]  lg:items-center px-4 ">
+<div className="flex flex-col lg:flex-row gap-10 xl:mx-[85px]  lg:items-center px-4 ">
   {/* Left Section */}
   <div className="w-full max-w-full lg:max-w-[600px] space-y-5">
     <span className="text-xl font-bold text-black">Go from Blank Page to Bold Pitch!</span>
