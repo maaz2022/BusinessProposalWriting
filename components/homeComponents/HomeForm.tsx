@@ -45,7 +45,7 @@ const Discount = () => {
           draggable: true,
           theme: "colored",
           style: {
-            backgroundColor: '#4caf50', // Green background for success
+            backgroundColor: '#083554', // Green background for success
             color: '#fff', // White text
           },
         });
@@ -63,7 +63,7 @@ const Discount = () => {
           draggable: true,
           theme: "colored",
           style: {
-            backgroundColor: '#f44336', // Red background for error
+            backgroundColor: '#083554', // Red background for error
             color: '#fff', // White text
           },
         });
