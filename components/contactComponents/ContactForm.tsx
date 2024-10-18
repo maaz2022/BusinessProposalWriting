@@ -28,7 +28,8 @@ const ContactForm = () => {
     businessLevel: '',
   });
 
-  const [isCaptchaVerified, setIsCaptchaVerified] = useState<boolean>(false); // State for ReCAPTCHA verification
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState<boolean>(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>): void => {
     setFormData({
@@ -43,6 +44,16 @@ const ContactForm = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
+    setIsSubmitting(true); // Set form as submitting
+    toast.info('Submitting your request...', {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      draggable: true,
+      theme: "light",
+    });
+
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -66,8 +77,6 @@ const ContactForm = () => {
             color: '#fff', 
           },
         });
-
-        // Clear the form data
         setFormData({
           firstName: '',
           lastName: '',
@@ -77,7 +86,7 @@ const ContactForm = () => {
           reason: '',
           businessLevel: '',
         });
-        setIsCaptchaVerified(false); // Reset ReCAPTCHA verification state
+        setIsCaptchaVerified(false);
       } else {
         toast.error(result.message || 'Failed to send message', {
           position: "top-right",
@@ -98,6 +107,8 @@ const ContactForm = () => {
         draggable: true,
         theme: "light",
       });
+    } finally {
+      setIsSubmitting(false); // Reset form state after submission
     }
   };
 
@@ -118,7 +129,7 @@ const ContactForm = () => {
         onSubmit={handleSubmit}
       >
         <h2 className="text-3xl font-bold mb-4 text-start text-[#083554]">Contact Our Business Proposal Experts</h2>
-        <div className='w-20  mb-4 border-b-4 border-[#083554]'></div>
+        <div className='w-20 mb-4 border-b-4 border-[#083554]'></div>
         <p className="text-start mb-4 text-[#083554]">We are anticipating working with you! Fill in the form and our representative will get back to you within 24 hours.</p>
 
         <div className="mb-4 grid grid-cols-2 gap-4">
@@ -130,7 +141,6 @@ const ContactForm = () => {
             value={formData.firstName}
             onChange={handleChange}
             required
-            
           />
           <input
             className="w-full p-2 border border-[#083554] rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -140,7 +150,6 @@ const ContactForm = () => {
             value={formData.lastName}
             onChange={handleChange}
             required
-            
           />
         </div>
 
@@ -153,7 +162,6 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            
           />
         </div>
 
@@ -166,7 +174,6 @@ const ContactForm = () => {
             value={formData.phone}
             onChange={handleChange}
             required
-            
           />
         </div>
 
@@ -179,7 +186,6 @@ const ContactForm = () => {
             value={formData.city}
             onChange={handleChange}
             required
-            
           />
         </div>
 
@@ -192,7 +198,6 @@ const ContactForm = () => {
             onChange={handleChange}
             rows={2}
             required
-            
           ></textarea>
         </div>
 
@@ -203,7 +208,6 @@ const ContactForm = () => {
             value={formData.businessLevel}
             onChange={handleChange}
             required
-            
           >
             <option value="">Select Business Level</option>
             <option value="Startup">Startup</option>
@@ -219,14 +223,17 @@ const ContactForm = () => {
         />
         
         <button
-          className="w-full bg-[#083554] text-white py-3 rounded-xl hover:bg-[#082f54] transition-colors mt-5"
+          className={`w-full py-3 rounded-xl transition-colors mt-5 ${
+            isCaptchaVerified && !isSubmitting
+              ? 'bg-[#083554] text-white hover:bg-[#082f54]'
+              : 'bg-gray-500 text-gray-300 cursor-not-allowed'
+          }`}
           type="submit"
-          disabled={!isCaptchaVerified} 
+          disabled={!isCaptchaVerified || isSubmitting}
         >
-          Submit
+          {isSubmitting ? 'Submitting...' : 'Submit'}
         </button>
       </form>
-
 
       <div className="w-full 2xl:w-1/2 2xl:h-[650px] mt-8 lg:mt-0 lg:ml-8 flex-grow lg:max-w-3xl 2xl:mr-28">
         <div className="hidden lg:block mt-24">
@@ -239,29 +246,29 @@ const ContactForm = () => {
           />
         </div>
 
-         <div className="flex flex-col items-start justify-center bg-white p-8 rounded-xl shadow-md lg:max-w-[600px] h-[270px] mt-5 border-2 border-[#083554]">
-        <div className="mb-4 flex items-center">
-          <Phone size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
-          <div>
-            Phone <br />
-            <Link rel='nofollow' href="https://wa.me/12067467149" target='_blank'  >+1 206-746-7149</Link>
+        <div className="flex flex-col items-start justify-center bg-white p-8 rounded-xl shadow-md lg:max-w-[600px] h-[270px] mt-5 border-2 border-[#083554]">
+          <div className="mb-4 flex items-center">
+            <Phone size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
+            <div>
+              Phone <br />
+              <Link rel='nofollow' href="https://wa.me/254797755226" className="hover:underline">+254797755226</Link>
+            </div>
+          </div>
+          <div className="mb-4 flex items-center">
+            <Mail size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
+            <div>
+              Email <br />
+              <Link rel='nofollow' href="mailto:scriptershubltd@gmail.com" className="hover:underline">scriptershubltd@gmail.com</Link>
+            </div>
+          </div>
+          <div className="mb-4 flex items-center">
+            <MapPin size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
+            <div>
+              Nairobi, Kenya <br />
+              Kasarani, Mwiki
+            </div>
           </div>
         </div>
-        <div className="mb-4 flex items-center">
-          <Mail size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
-          <div>
-            Email <br />
-            <a href="mailto:info@businessproposalwriter.com">info@businessproposalwriter.com</a>
-          </div>
-        </div>
-        <div className="flex items-center">
-          <MapPin size={40} className="mr-4 p-2 bg-blue-200 rounded-full text-[#083554]" />
-          <div>
-            Address <br />
-            30 N Gould St Ste R Sheridan, WY 82801
-          </div>
-        </div>
-      </div>
       </div>
     </div>
   );
