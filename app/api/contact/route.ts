@@ -5,6 +5,7 @@ export async function POST(req: NextRequest) {
   console.log(req.method);
   
   try {
+
     const { firstName, lastName, email, phone, city, reason, businessLevel } = await req.json();
 
     const toEmail = process.env.SMTPEMAIL;
