@@ -6,13 +6,13 @@ export async function POST(req: NextRequest) {
   
   try {
 
-    const { firstName, lastName, email, phone, city, reason, businessLevel } = await req.json();
+    const { name, email, phone } = await req.json();
 
     const toEmail = process.env.SMTPEMAIL;
     const password = process.env.SMTPPASSWORD;
     const fromEmail = process.env.FROMEMAIL;
 
-    // Ensure environment variables are defined
+
     if (!toEmail || !password) {
       return NextResponse.json({ message: 'SMTP credentials not set' }, { status: 500 });
     }
@@ -30,15 +30,11 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       from: toEmail,
       to: toEmail,
-      subject: 'New Contact Form Submission',
+      subject: 'HomePage Form Submission',
       html: `
-        <p><strong>First Name:</strong> ${firstName}</p>
-        <p><strong>Last Name:</strong> ${lastName}</p>
+        <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>City:</strong> ${city}</p>
-        <p><strong>Reason for Business Plan:</strong> ${reason}</p>
-        <p><strong>Business Level:</strong> ${businessLevel}</p>
       `,
     });
 
@@ -49,6 +45,3 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// export async function GET(req: NextRequest) {
-//   return NextResponse.json({ message: 'Method Not Allowed' }, { status: 405 });
-// }

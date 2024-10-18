@@ -1,6 +1,6 @@
 import CounterSection from "@/components/homeComponents/Counter";
 import Cta from "@/components/homeComponents/Cta";
-import Discount from "@/components/homeComponents/Discount";
+import Discount from "@/components/homeComponents/HomeForm";
 import EighthSection from "@/components/homeComponents/EighthSection";
 import FAQ from "@/components/homeComponents/FAQ";
 import Features from "@/components/homeComponents/Features";

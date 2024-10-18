@@ -38,7 +38,7 @@ const ContactForm = () => {
   };
 
   const handleCaptchaChange = (value: string | null) => {
-    setIsCaptchaVerified(!!value); // Set to true if captcha is verified
+    setIsCaptchaVerified(!!value); 
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
@@ -54,13 +54,17 @@ const ContactForm = () => {
 
       const result = await response.json();
       if (response.ok) {
-        toast.success('Message sent successfully!', {
+        toast.success('Form submitted successfully!', {
           position: "top-right",
           autoClose: 3000,
-          hideProgressBar: true,
+          hideProgressBar: false,
           closeOnClick: true,
           draggable: true,
-          theme: "light",
+          theme: "colored",
+          style: {
+            backgroundColor: '#4caf50',
+            color: '#fff', 
+          },
         });
 
         // Clear the form data
